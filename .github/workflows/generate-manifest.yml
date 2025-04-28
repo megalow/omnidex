@@ -24,9 +24,10 @@ jobs:
         run: node generate-manifest.js
 
       - name: Commit and push changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add manifest.json
-          git commit -m "Auto-update manifest.json" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.MANIFEST }}@github.com/megalow/omnidex.git
+  run: |
+    git config user.name "github-actions[bot]"
+    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    git add manifest.json
+    git commit -m "Auto-update manifest.json" || echo "No changes to commit"
+    git push https://x-access-token:${{ secrets.MANIFEST }}@github.com/megalow/omnidex.git
+
