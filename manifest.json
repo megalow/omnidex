@@ -2,7 +2,9 @@
   "complete": [
     "1.txt"
   ],
-  "WIP": [],
+  "wip": [
+    "Rising Ruby.json"
+  ],
   "community": [
     "1.txt"
   ]
