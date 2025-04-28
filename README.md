@@ -1,2 +1,0 @@
-# omnidex
-omnidex json dump
