@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://html-classic.itch.zone/html/13479105/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Omnitracker</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    .top-bar, .search-bar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+    .search-bar {
+      justify-content: space-between;
+    }
+    .flex-panels {
+      display: flex;
+      gap: 10px;
+      height: 500px;
+    }
+    .panel {
+      flex: 1;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      overflow: auto;
+    }
+    .panel h2 {
+      margin-top: 0;
+    }
+    .divider {
+      border-top: 1px solid #aaa;
+      margin: 10px 0;
+    }
+    .checkbox-label {
+      display: block;
+    }
+    .wild-type-header {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .poke-button {
+  display: flex;
+  align-items: center; /* Vertically align items in the center */
+  /*justify-content: right; /* Push span to the left and the buttons to the right */
+  margin: 2px 0;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 2px 6px;
+  background: #f0f0f0;
+  cursor: pointer;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.poke-button > span {
+  justify-content: center;
+  /* No specific styling needed for left alignment with justify-content: space-between */
+}
+
+.poke-button > button {
+  justify-content: right;
+  /* Style for the individual X and + buttons */
+}
+
+.poke-button > .plus-button {
+  margin-left: 5px; /* Keep the existing margin for the + button */
+}
+
+.poke-button > .info-panel {
+  width: 100%; /* Make it take the full width for a new line */
+  margin-top: 5px; /* Keep the existing margin-top */
+  display: flex; /* Arrange the buttons inside horizontally */
+  flex-direction: column; /* Stack the buttons vertically within the info-panel */
+}
+
+.poke-button > .info-panel > button {
+  width: 100%; /* Make the buttons inside info-panel take full width */
+  margin-bottom: 2px; /* Keep the existing margin-bottom */
+  display: block; /* Ensure each button in info-panel is on a new line within that panel */
+}
+    .poke-button:hover {
+      background-color: #e0e0e0;
+    }
+    .poke-name {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  </style>
+<body>
+  <!-- Top bar -->
+  <div class="top-bar" id="topBar">
+    <input type="file" id="fileInput">
+  </div>
+
+  <div id="trackerLoad">
+
+    <div style="display: flex; gap: 16px; padding: 16px;">
+      <div style="flex: 1; background: #f0f0f0; padding: 16px; border-radius: 8px; text-align: center;">
+        <h2>User Saves</h2>
+      </div>
+      <div style="flex: 1; background: #e0f7fa; padding: 16px; border-radius: 8px; text-align: center;">
+        <h2>Complete</h2>
+      </div>
+      <div style="flex: 1; background: #fff3e0; padding: 16px; border-radius: 8px; text-align: center;">
+        <h2>WIP</h2>
+      </div>
+      <div style="flex: 1; background: #ede7f6; padding: 16px; border-radius: 8px; text-align: center;">
+        <h2>Community</h2>
+      </div>
+    </div>
+    
+  </div>
+
+  <script>
+    const savesList = document.getElementById('saves-list');
+    const completeList = document.getElementById('complete-list');
+    const wipList = document.getElementById('wip-list');
+    const communityList = document.getElementById('community-list');
+
+    const savesData = ['Save 1', 'Save 2', 'Save 3'];
+    const completeData = ['Complete 1', 'Complete 2'];
+    const wipData = ['WIP 1'];
+    const communityData = ['Community 1', 'Community 2', 'Community 3', 'Community 4'];
+
+    function createListItem(text) {
+        const li = document.createElement('li');
+        li.className = "w-full";
+        const button = document.createElement('button');
+        button.className = "w-full justify-start text-gray-400 hover:text-white bg-transparent border-none p-0";
+        button.textContent = text;
+        li.appendChild(button);
+        return li;
+    }
+
+    savesData.forEach(item => savesList.appendChild(createListItem(item)));
+    completeData.forEach(item => completeList.appendChild(createListItem(item)));
+    wipData.forEach(item => wipList.appendChild(createListItem(item)));
+    communityData.forEach(item => communityList.appendChild(createListItem(item)));
+</script>
+  </div>
+
+
+  <div id="trackerMain" style = "display:none">
+
+  <!-- Search and toggle bar -->
+  <div class="search-bar">
+    <input type="text" placeholder="Search..." id="searchBox">
+    <label><input type="checkbox" id="hideComplete"> Hide complete tasks</label>
+  </div>
+
+  <!-- Flex panels -->
+  <div class="flex-panels">
+    <div class="panel" id="caughtPanel">
+      <h2>Caught Pokemons</h2>
+    </div>
+    <div class="panel" id="areasPanel">
+      <h2>Areas</h2>
+    </div>
+    <div class="panel" id="detailsPanel">
+      <h2>Area Details</h2>
+    </div>
+    <div class="panel" id="movesetPanel">
+      <h2>Pokemon Moveset</h2>
+    </div>
+  </div>
+
+  </div>
+
+
+    
+
+  <script>
+    const fileInput = document.getElementById('fileInput');
+    const topBar = document.getElementById('topBar');
+	  const search = document.getElementById('searchBox');
+    const hideComplete = document.getElementById('hideComplete');
+
+    let data = {};
+
+     function createCheckbox(label, checked, onChange) {
+      const container = document.createElement('label');
+      container.className = 'checkbox-label';
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.checked = checked;
+      checkbox.onchange = () => {
+        onChange(checkbox.checked);
+        if (currentArea) showAreaDetails(currentArea);
+      };
+      container.appendChild(checkbox);
+      container.appendChild(document.createTextNode(label));
+      return container;
+    }
+
+    let currentArea = null;
+
+    function populatePanels() {
+      caughtPanel.innerHTML = '<h2>Caught Pokemons</h2>';
+      const dex = data.player.dex;
+      const hide = hideComplete.checked;
+      let uncaughtList = [];
+
+      Object.entries(dex).forEach(([name, info]) => {
+        if (info.caught) {
+          caughtPanel.appendChild(createPokemonToggle(name, true, checked => {
+            info.caught = checked;
+          }));
+        } else if (!hide) {
+          uncaughtList.push(name);
+        }
+      });
+      if (!hide && uncaughtList.length > 0) {
+        const divider = document.createElement('div');
+        divider.className = 'divider';
+        caughtPanel.appendChild(divider);
+		console.log(caughtPanel);
+    uncaughtList.forEach(name => {
+    name = name.toUpperCase();
+    const pokemonToggle = createPokemonToggle(name, false, checked => {
+        data.player.dex[name].caught = checked;
+    });
+
+    // Create the "+" button
+    const plusButton = document.createElement('button');
+    plusButton.textContent = '+';
+    plusButton.classList.add('plus-button'); // Add a class for styling
+    plusButton.style.marginLeft = '5px'; // Add some left margin for spacing
+
+    // Create the panel (initially hidden)
+    const infoPanel = document.createElement('div');
+    infoPanel.classList.add('info-panel'); // Add a class for styling
+    infoPanel.style.display = 'none'; // Hide the panel by default
+    infoPanel.style.marginTop = '5px';  //Add space between the checkbox and the panel
+    infoPanel.style.flexDirection = 'column'; // Stack buttons vertically
+
+    // Create the four buttons inside the panel
+    const evolutionButton = document.createElement('button');
+    evolutionButton.textContent = 'Evolution';
+    evolutionButton.onclick = () => advCaught('evolution', name);
+    evolutionButton.style.marginBottom = '2px'; //Add space between buttons
+    infoPanel.appendChild(evolutionButton);
+
+    const areasButton = document.createElement('button');
+    areasButton.textContent = 'Areas found';
+    areasButton.onclick = () => advCaught('area', name);
+    areasButton.style.marginBottom = '2px';
+    infoPanel.appendChild(areasButton);
+
+    const trainersButton = document.createElement('button');
+    trainersButton.textContent = 'Trainers and Trades';
+    trainersButton.onclick = () => advCaught('trainer', name);
+    trainersButton.style.marginBottom = '2px';
+    infoPanel.appendChild(trainersButton);
+
+    const movesetButton = document.createElement('button');
+    movesetButton.textContent = 'Moveset';
+    movesetButton.onclick = () => advCaught('moveset', name);
+    infoPanel.appendChild(movesetButton);
+
+    // Toggle the panel's visibility when the "+" button is clicked.
+    plusButton.addEventListener('click', () => {
+        if (infoPanel.style.display === 'none') {
+            infoPanel.style.display = 'block'; // Use flexbox for vertical layout
+        } else {
+            infoPanel.style.display = 'none';
+        }
+    });
+
+    // Append the toggle, "+" button, and panel to the caughtPanel
+    const containerDiv = document.createElement('div'); //create a container
+    containerDiv.style.display = 'flex'; //use flexbox
+    //containerDiv.style.alignItems = 'flex-start'; //align items
+    containerDiv.appendChild(pokemonToggle);
+    //containerDiv.appendChild(plusButton);
+// Get the inner div (assuming it's the first child)
+const innerDiv = caughtPanel.firstChild;
+    caughtPanel.appendChild(pokemonToggle);
+
+// Append containerDiv to the inner div
+pokemonToggle.appendChild(plusButton);
+pokemonToggle.appendChild(infoPanel); // Append the panel *after* the toggle and button
+});
+      } 
+	  
+	  
+	  
+	  
+      areasPanel.innerHTML = '<h2>Areas</h2>';
+      Object.keys(data.player.map).forEach(area => {
+	  
+	  const hideComplete = document.getElementById('hideComplete').checked;
+const areaData = data.player.map[area];
+
+let allTrainersDone = true;
+let allWildCaught = true;
+
+if (Array.isArray(areaData.trainers)) {
+  allTrainersDone = areaData.trainers.every(t => t.defeated);
+}
+if (areaData.rematches) {
+  allTrainersDone = allTrainersDone && areaData.rematches.every(t => t.defeated);
+}
+if (areaData.wild) {
+  for (const list of Object.values(areaData.wild)) {
+    for (const pokemonName of list) {
+      const caught = data.player.dex[pokemonName.toUpperCase()]?.caught;
+      if (!caught) {
+        allWildCaught = false;
+        break;
+      }
+    }
+    if (!allWildCaught) break;
+  }
+}
+
+const allComplete = allTrainersDone && allWildCaught;
+
+if (hideComplete && allComplete) return; // skip this area
+
+	  
+        const areaBtn = document.createElement('button');
+        areaBtn.textContent = area;
+        areaBtn.onclick = () => showAreaDetails(area);
+        areasPanel.appendChild(areaBtn);
+        areasPanel.appendChild(document.createElement('br'));
+      });
+    }
+	
+//ADVANCE FUNCTIONS
+function advCaught(type,name){alert(name)}
+function advArea(item){return}
+function advAreaDetails(item){return}
+function advPokemonDetails(type,data){return}
+
+	
+      function createPokemonToggle(name, caught, toggleFn) {
+  const container = document.createElement('div');
+  container.className = 'poke-button';
+
+  const nameSpan = document.createElement('span');
+  nameSpan.textContent = name;
+  nameSpan.className = 'poke-name';
+  nameSpan.onclick = () => showMoveset(name);
+
+  const btn = document.createElement('button');
+  btn.textContent = caught ? '✓' : '✗';
+  btn.onclick = () => {
+    toggleFn(!caught);
+    populatePanels();
+    if (currentArea) showAreaDetails(currentArea);
+  };
+
+  // Append the elements to the container
+  container.appendChild(nameSpan);
+  container.appendChild(btn);
+
+  return container;
+}
+
+	  
+
+document.getElementById('hideComplete').onchange = () => {
+  populatePanels();
+  if (currentArea) showAreaDetails(currentArea);
+};
+
+    function showAreaDetails(areaName) {
+      currentArea = areaName;
+      detailsPanel.innerHTML = `<h2>Area Details: ${areaName}</h2>`;
+      const areaData = data.player.map[areaName];
+		  const hideComplete = document.getElementById('hideComplete').checked;
+
+      ['trainers', 'rematches'].forEach(key => {
+        if (areaData[key]) {
+          const sectionHeader = document.createElement('h3');
+          sectionHeader.textContent = key;
+          detailsPanel.appendChild(sectionHeader);
+          areaData[key].forEach(trainer => {
+		          if (hideComplete && trainer.defeated) return;
+
+            const label = `${trainer.name} (${trainer.pokemons.map(p => `${p.name} Lv ${p.level}`).join(', ')})`;
+
+            const checkbox = createCheckbox(label, trainer.defeated, checked => {
+              trainer.defeated = checked;
+            });
+            detailsPanel.appendChild(checkbox);
+          });
+        }
+      });
+
+      if (areaData.wild) {
+        const wildHeader = document.createElement('h3');
+        wildHeader.textContent = 'Wild Pokemons';
+        detailsPanel.appendChild(wildHeader);
+
+        Object.entries(areaData.wild).forEach(([type, list]) => {
+          const typeHeader = document.createElement('div');
+          typeHeader.className = 'wild-type-header';
+          typeHeader.textContent = type;
+          detailsPanel.appendChild(typeHeader);
+
+          list.forEach(pokemonName => {
+		  pokemonName = pokemonName.toUpperCase();
+            const caughtStatus = data.player.dex[pokemonName]?.caught || false;
+			        if (hideComplete && caughtStatus) return;
+
+            const toggle = createPokemonToggle(pokemonName, caughtStatus, checked => {
+              if (data.player.dex[pokemonName]) {
+                data.player.dex[pokemonName].caught = checked;
+              }
+			  populatePanels();
+              if (currentArea) showAreaDetails(currentArea);
+            });
+            detailsPanel.appendChild(toggle);
+          });
+        });
+      }
+    }
+	
+	search.addEventListener('input', () => {
+  const query = search.value.toLowerCase().trim();
+  filterCaughtPanel(query);
+  filterAreasPanel(query);
+});
+
+function filterCaughtPanel(query) {
+  const children = caughtPanel.querySelectorAll('.poke-button');
+  children.forEach(child => {
+    const name = child.querySelector('.poke-name')?.textContent.toLowerCase() || '';
+    const pokeName = name.trim().toUpperCase(); // For matching with moves
+    const moves = data.player.dex[pokeName]?.moveset || []; // Get the moves array for the Pokémon
+
+    const isNameMatch = name.includes(query.toLowerCase());
+
+    // Check if any move matches the search query
+    const isMoveMatch = moves.some(([level, move]) => move.toLowerCase().trim().includes(query.toLowerCase()));
+	
+    // Show/hide based on name or move match
+    child.style.display = query === '' || isNameMatch || isMoveMatch ? '' : 'none';
+  });
+}
+function filterAreasPanel(query) {
+  const hideComplete = document.getElementById('hideComplete').checked;
+  const areaElements = areasPanel.querySelectorAll('button');
+
+  areaElements.forEach(btn => {
+    const areaName = btn.textContent.trim();
+    const areaData = data.player.map[areaName];
+    let match = areaName.toLowerCase().includes(query.toLowerCase());
+
+    if (!match && areaData?.wild) {
+      for (const list of Object.values(areaData.wild)) {
+        for (const pokeName of list) {
+          const poke = data.player.dex[pokeName.toUpperCase()];
+          const nameMatch = pokeName.toLowerCase().includes(query.toLowerCase());
+          
+          // Check for move match within the wild Pokémon's moves
+          const moveMatch = poke?.moveset?.some(([level, move]) => move.toLowerCase().includes(query.toLowerCase()));
+
+          if (nameMatch || moveMatch) {
+            match = true;
+            break;
+          }
+        }
+        if (match) break;
+      }
+    }
+
+    const areaComplete =
+      (!areaData?.wild || Object.values(areaData.wild).flat().every(p => data.player.dex[p.toUpperCase()]?.caught)) &&
+      (!areaData?.trainers || areaData.trainers.every(t => t.defeated)) &&
+      (!areaData?.rematches || areaData.rematches.every(t => t.defeated));
+
+    // Hide if hideComplete is on and area is completed
+    const shouldHide = (hideComplete && areaComplete) || !match;
+    btn.style.display = shouldHide ? 'none' : '';
+  });
+}
+
+
+
+    function showMoveset(pokemonName) {
+      movesetPanel.innerHTML = `<h2>Pokemon Moveset: ${pokemonName}</h2>`;
+      const moves = data.player.dex[pokemonName].moveset;
+      moves.forEach(pair => {
+        const line = document.createElement('div');
+        line.textContent = `${pair[0]} - ${pair[1]}`;
+        movesetPanel.appendChild(line);
+      });
+    }
+
+    function normalizeData(json) {
+      if (!json.player) {
+        json.player = {
+          game: json.game || 'Unknown Game',
+          dex: {},
+          map: json.map || {}
+        };
+       Object.entries(json.dex).forEach(([name, moveset]) => {
+                const type = json.dex[name].type || [];  // Use type from dex, or [] if not defined
+                const ability = json.dex[name].ability || []; // Use ability from dex, or [] if not defined
+                json.player.dex[name] = {
+                    caught: false,
+                    shiny: false,
+                    type: type,
+                    ability: ability,
+                    moveset: moveset
+                };
+            });
+        Object.values(json.player.map).forEach(area => {
+          ['Trainers', 'SpecialTrainers', 'Rematches'].forEach(key => {
+            if (area[key]) {
+              area[key].forEach(trainer => {
+                trainer.defeated = false;
+              });
+            }
+          });
+        });
+      }
+    }
+
+    function resetProgress() {
+      Object.values(data.player.dex).forEach(p => p.caught = false);
+      Object.values(data.player.map).forEach(area => {
+        ['Trainers', 'SpecialTrainers', 'Rematches'].forEach(key => {
+          if (area[key]) {
+            area[key].forEach(trainer => trainer.defeated = false);
+          }
+        });
+      });
+      populatePanels();
+      detailsPanel.innerHTML = '<h2>Area Details</h2>';
+      movesetPanel.innerHTML = '<h2>Pokemon Moveset</h2>';
+    }
+
+    function exportData() {
+      const nameInput = document.getElementById('playerName');
+      const filename = `omnitracker-${nameInput.value || 'player'}.json`;
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files.length > 0) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            const raw = e.target.result;
+            const parsed = JSON.parse(raw);
+            normalizeData(parsed);
+            data = parsed;
+
+            topBar.innerHTML = `
+              <strong>${data.player.game}</strong>
+              <input type="text" id="playerName" placeholder="Enter player name" />
+              <button id="resetBtn">Reset</button>
+              <button id="exportBtn">Export</button>
+            `;
+
+            document.getElementById('resetBtn').onclick = resetProgress;
+            document.getElementById('exportBtn').onclick = exportData;
+
+            populatePanels();
+            hideComplete.addEventListener('change', populatePanels);
+          } catch (err) {
+		  console.error("Parse error:", err.message);
+
+            alert('Invalid JSON file');
+          }
+        };
+        reader.readAsText(fileInput.files[0]);
+      }
+    });
+  </script>
+
+
+</body></html>
