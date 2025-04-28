@@ -1,4 +1,10 @@
 {
+	"game": {
+		"category": "Rising Ruby",
+		"title": "Rising Ruby by Megalow",
+		"original": ["Omega Ruby", "Ruby", "3ds"],
+		"author": "Megalow"
+	},
 "dex": {
 "BULBASAUR": [ [ 1, "tackle" ], [ 3, "growl" ], [ 5, "leech seed" ], [ 7, "vine whip" ], [ 9, "poison powder" ], [ 9, "sleep powder" ], [ 11, "take down" ], [ 13, "razor leaf" ], [ 15, "sludge *" ], [ 18, "magical leaf *" ], [ 21, "sweet scent" ], [ 24, "growth" ], [ 27, "worry seed" ], [ 30, "double-edge" ], [ 33, "synthesis" ], [ 36, "seed bomb" ], [ 39, "power whip *" ] ],
 "IVYSAUR": [ [ 1, "tackle" ], [ 3, "growl" ], [ 5, "leech seed" ], [ 7, "vine whip" ], [ 9, "poison powder" ], [ 9, "sleep powder" ], [ 11, "take down" ], [ 13, "razor leaf" ], [ 15, "sludge *" ], [ 19, "magical leaf *" ], [ 22, "sweet scent" ], [ 25, "growth" ], [ 28, "worry seed" ], [ 31, "double-edge" ], [ 34, "synthesis" ], [ 37, "solar beam" ], [ 40, "power whip *" ] ],
