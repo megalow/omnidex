@@ -28,13 +28,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch and Rebase
-        run: |
-          git fetch origin
-          git rebase origin/main
+      - name: Add changes to Git
+        run: git add manifest.json
 
       - name: Commit and push changes
         run: |
-          git add manifest.json
           git commit -m "Auto-update manifest.json" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/megalow/omnidex.git
