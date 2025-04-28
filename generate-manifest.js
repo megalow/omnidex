@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const folders = ['complete', 'WIP', 'community'];
+const folders = ['complete', 'wip', 'community'];
 const manifest = {};
 
 folders.forEach(folder => {
