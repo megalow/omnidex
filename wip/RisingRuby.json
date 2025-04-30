@@ -33,7 +33,7 @@
 "PIKACHU": [ [ 1, "tail whip" ], [ 1, "thunder shock" ], [ 5, "growl" ], [ 7, "play nice" ], [ 9, "quick attack" ], [ 11, "feint" ], [ 13, "disarming voice *" ], [ 15, "electro ball" ], [ 17, "thunder wave" ], [ 19, "fake out *" ], [ 22, "double team" ], [ 25, "spark" ], [ 28, "discharge" ], [ 31, "nuzzle" ], [ 34, "thunderbolt" ], [ 37, "slam" ], [ 40, "agility" ], [ 43, "wild charge" ], [ 46, "light screen" ], [ 49, "thunder" ], [ 52, "volt tackle *" ] ],
 "RAICHU": [ [ 1, "petal dance **" ], [ 1, "thunder shock" ], [ 1, "tail whip" ], [ 1, "quick attack" ], [ 1, "thunderbolt" ] ],
 "SANDSHREW": [ [ 1, "scratch" ], [ 1, "defense curl" ], [ 3, "sand attack" ], [ 5, "poison sting" ], [ 7, "rollout" ], [ 9, "rapid spin" ], [ 11, "fury cutter" ], [ 13, "magnitude" ], [ 15, "swift" ], [ 17, "metal claw *" ], [ 19, "fury swipes" ], [ 22, "sand tomb" ], [ 25, "slash" ], [ 28, "night slash *" ], [ 31, "dig" ], [ 34, "gyro ball" ], [ 37, "super fang *" ], [ 40, "earthquake" ], [ 43, "iron tail *" ], [ 46, "swords dance" ], [ 49, "sandstorm" ] ],
-"SAND/": [ [ 1, "sandstorm" ], [ 1, "scratch" ], [ 1, "defense curl" ], [ 3, "sand attack" ], [ 5, "poison sting" ], [ 7, "rollout" ], [ 9, "rapid spin" ], [ 11, "fury cutter" ], [ 13, "magnitude" ], [ 15, "swift" ], [ 17, "metal claw *" ], [ 19, "fury swipes" ], [ 22, "crush claw" ], [ 23, "sand tomb" ], [ 27, "slash" ], [ 31, "night slash *" ], [ 35, "dig" ], [ 39, "gyro ball" ], [ 43, "super fang *" ], [ 47, "earthquake" ], [ 51, "iron tail *" ], [ 55, "swords dance" ], [ 59, "sandstorm" ] ],
+"SANDSLASH": [ [ 1, "sandstorm" ], [ 1, "scratch" ], [ 1, "defense curl" ], [ 3, "sand attack" ], [ 5, "poison sting" ], [ 7, "rollout" ], [ 9, "rapid spin" ], [ 11, "fury cutter" ], [ 13, "magnitude" ], [ 15, "swift" ], [ 17, "metal claw *" ], [ 19, "fury swipes" ], [ 22, "crush claw" ], [ 23, "sand tomb" ], [ 27, "slash" ], [ 31, "night slash *" ], [ 35, "dig" ], [ 39, "gyro ball" ], [ 43, "super fang *" ], [ 47, "earthquake" ], [ 51, "iron tail *" ], [ 55, "swords dance" ], [ 59, "sandstorm" ] ],
 "NIDORAN F": [ [ 1, "leer" ], [ 1, "peck" ], [ 1, "poison sting" ], [ 6, "focus energy" ], [ 9, "double kick" ], [ 12, "poison tail *" ], [ 15, "fury attack" ], [ 18, "horn attack" ], [ 21, "poison jab" ], [ 24, "helping hand" ], [ 27, "drill run *" ], [ 30, "toxic spikes" ], [ 33, "flatter" ], [ 36, "captivate" ], [ 39, "horn drill" ], [ 42, "head smash *" ] ],
 "NIDORINA": [ [ 1, "growl" ], [ 1, "scratch" ], [ 1, "poison sting" ], [ 6, "tail whip" ], [ 9, "double kick" ], [ 12, "poison fang" ], [ 15, "fury swipes" ], [ 19, "bite" ], [ 23, "poison jab *" ], [ 27, "helping hand" ], [ 31, "crunch" ], [ 35, "toxic spikes" ], [ 39, "flatter" ], [ 43, "captivate" ], [ 47, "skull bash *" ], [ 51, "super fang *" ] ],
 "NIDOQUEEN": [ [ 1, "moonlight **" ], [ 1, "lovely kiss **" ], [ 1, "superpower" ], [ 1, "scratch" ], [ 1, "tail whip" ], [ 1, "double kick" ], [ 1, "poison sting" ], [ 23, "chip away" ], [ 35, "body slam" ], [ 43, "earth power" ], [ 58, "superpower" ] ],
@@ -88,7 +88,7 @@
 "SLOWBRO": [ [ 1, "wonder room *" ], [ 1, "flamethrower *" ], [ 1, "curse" ], [ 1, "yawn" ], [ 1, "tackle" ], [ 4, "growl" ], [ 6, "water gun" ], [ 8, "confusion" ], [ 11, "incinerate *" ], [ 14, "headbutt" ], [ 16, "disable" ], [ 19, "zen headbutt" ], [ 22, "water pulse" ], [ 26, "belch *" ], [ 30, "slack off" ], [ 33, "withdraw" ], [ 34, "amnesia" ], [ 39, "psychic" ], [ 44, "rain dance" ], [ 49, "psych up" ], [ 54, "heal pulse" ], [ 59, "wonder room *" ] ],
 "MAGNEMITE": [ [ 1, "tackle" ], [ 5, "supersonic" ], [ 7, "thunder shock" ], [ 11, "sonic boom" ], [ 15, "thunder wave" ], [ 17, "magnet bomb" ], [ 19, "spark" ], [ 23, "mirror shot" ], [ 25, "metal sound" ], [ 29, "electro ball" ], [ 31, "flash cannon" ], [ 35, "screech" ], [ 37, "discharge" ], [ 41, "lock-on" ], [ 43, "magnet rise" ], [ 47, "gyro ball" ], [ 49, "zap cannon" ] ],
 "MAGNETON": [ [ 1, "zap cannon" ], [ 1, "electric terrain" ], [ 1, "tackle" ], [ 5, "supersonic" ], [ 7, "thunder shock" ], [ 11, "sonic boom" ], [ 15, "thunder wave" ], [ 17, "magnet bomb" ], [ 19, "spark" ], [ 23, "mirror shot" ], [ 25, "metal sound" ], [ 29, "electro ball" ], [ 30, "tri attack" ], [ 33, "flash cannon" ], [ 39, "screech" ], [ 43, "discharge" ], [ 49, "lock-on" ], [ 53, "magnet rise" ], [ 59, "gyro ball" ], [ 63, "zap cannon" ] ],
-"FARFETCH": [ [ 1, "peck" ], [ 1, "sand attack" ], [ 1, "leer" ], [ 1, "fury cutter" ], [ 4, "fury attack" ], [ 7, "aerial ace" ], [ 10, "knock off" ], [ 13, "slash" ], [ 16, "revenge *" ], [ 19, "leaf blade *" ], [ 22, "air cutter" ], [ 25, "swords dance" ], [ 28, "acrobatics" ], [ 31, "flying press **" ], [ 34, "night slash" ], [ 37, "poison jab" ], [ 40, "agility" ], [ 43, "air slash" ], [ 46, "feint" ], [ 49, "brave bird" ], [ 52, "false swipe" ], [ 55, "roost" ], [ 58, "close combat **" ], [ 61, "sky attack *" ] ],
+"FARFETCH'D": [ [ 1, "peck" ], [ 1, "sand attack" ], [ 1, "leer" ], [ 1, "fury cutter" ], [ 4, "fury attack" ], [ 7, "aerial ace" ], [ 10, "knock off" ], [ 13, "slash" ], [ 16, "revenge *" ], [ 19, "leaf blade *" ], [ 22, "air cutter" ], [ 25, "swords dance" ], [ 28, "acrobatics" ], [ 31, "flying press **" ], [ 34, "night slash" ], [ 37, "poison jab" ], [ 40, "agility" ], [ 43, "air slash" ], [ 46, "feint" ], [ 49, "brave bird" ], [ 52, "false swipe" ], [ 55, "roost" ], [ 58, "close combat **" ], [ 61, "sky attack *" ] ],
 "DODUO": [ [ 1, "peck" ], [ 1, "growl" ], [ 5, "quick attack" ], [ 9, "rage" ], [ 11, "fury attack" ], [ 15, "pursuit" ], [ 17, "pluck" ], [ 21, "double hit" ], [ 25, "feint attack *" ], [ 29, "acupressure" ], [ 33, "drill peck" ], [ 37, "agility" ], [ 41, "uproar" ], [ 45, "endeavor" ], [ 49, "thrash" ], [ 53, "brave bird*" ] ],
 "DODRIO": [ [ 1, "brave bird *" ], [ 1, "thrash" ], [ 1, "peck" ], [ 1, "growl" ], [ 5, "quick attack" ], [ 9, "rage" ], [ 11, "fury attack" ], [ 15, "pursuit" ], [ 17, "pluck" ], [ 21, "tri attack" ], [ 25, "feint attack *" ], [ 29, "acupressure" ], [ 35, "drill peck" ], [ 41, "agility" ], [ 47, "uproar" ], [ 53, "endeavor" ], [ 59, "thrash" ], [ 65, "brave bird *" ] ],
 "SEEL": [ [ 1, "fake out *" ], [ 1, "headbutt" ], [ 2, "growl" ], [ 5, "water sport" ], [ 8, "icy wind" ], [ 11, "encore" ], [ 14, "signal beam *" ], [ 17, "ice shard" ], [ 20, "rest" ], [ 23, "water pulse *" ], [ 26, "aqua ring" ], [ 29, "aurora beam" ], [ 32, "aqua jet" ], [ 35, "brine" ], [ 38, "ice beam" ], [ 41, "take down" ], [ 44, "dive" ], [ 47, "aqua tail" ], [ 50, "safeguard" ], [ 53, "mist" ], [ 56, "drill run *" ] ],
@@ -1387,17 +1387,1618 @@
 		{"name": "Expert Timothy (5)", "pokemons": [{"name": "Hitmonlee", "level": 40, "moves": []}, {"name": "Hitmonchan", "level": 40, "moves": []}, {"name": "Hitmontop", "level": 40, "moves": []}]}, 
 		{"name": "Expert Timothy (7)", "pokemons": [{"name": "Hitmonlee", "level": 59, "moves": []}, {"name": "Hitmonchan", "level": 59, "moves": []}, {"name": "Hitmontop", "level": 59, "moves": []}, {"name": "Hariyama", "level": 59, "moves": []}]}, 
 		{"name": "Expert Timothy (8)", "pokemons": [{"name": "Hitmonlee", "level": 64, "moves": []}, {"name": "Hitmonchan", "level": 64, "moves": []}, {"name": "Hitmontop", "level": 64, "moves": []}, {"name": "Hariyama", "level": 64, "moves": []}]}, 
-		{"name": "Expert Timothy (C)", "pokemons": [{"name": "Hitmonlee", "level": 75, "moves": []}, {"name": "Hitmonchan", "level": 75, "moves": []}, {"name": "Hitmontop", "level": 75, "moves": []}, {"name": "Hariyama", "level": 75, "moves": []}, {"name": "Heracross", "level": 75, "moves": []}]}]}}
-
-
-
-
-
-
-
-
-
-
-
-
-}
+		{"name": "Expert Timothy (C)", "pokemons": [{"name": "Hitmonlee", "level": 75, "moves": []},{"name": "Hitmonchan", "level": 75, "moves": []}, {"name": "Hitmontop", "level": 75, "moves": []},{"name": "Hariyama", "level": 75, "moves": []}, {"name": "Heracross", "level": 75, "moves": []}]}]},
+"New Mauville": {
+	"wild": {
+      "grass": ["Pikachu", "Magneton", "Muk", "Electrode", "Weezing", "Electabuzz", "Porygon", "Rotom", "Garbodor", "Klang", "Eelektrik"],
+      "horde": ["Klink", "Tynamo"]}},
+"Route 118": {
+    "wild": {
+      "grass": ["Golduck", "Slowbro", "Linoone", "Manectric", "Luxio", "Pachirisu", "Chatot", "Emolga", "Inkay", "Dedenne"],
+      "tall_grass": ["Golduck", "Slowbro", "Linoone", "Manectric", "Luxio", "Pachirisu", "Chatot", "Emolga", "Malamar", "Dedenne"],
+      "dexnav": ["Slowking"],
+      "horde": ["Marshtomp"],
+      "surfing": ["Wingull", "Pelipper"],
+      "old_rod": ["Carvanha", "Feebas"],
+      "good_rod": ["Carvanha", "Feebas"],
+      "super_rod": ["Sharpedo"]},
+		"trainers":{
+		"West of Inlet": [
+			{"name": "Aroma Lady Rose","pokemons": [{"name": "Sunkern", "level": 22, "moves": []},{"name": "Chikorita", "level": 22, "moves": []},{"name": "Roselia", "level": 22, "moves": []}]}, 
+			{ "name": "Guitarist Dalton", "pokemons": [{"name": "Magnemite", "level": 22, "moves": []},{"name": "Whismur", "level": 22, "moves": []},{"name": "Chatot", "level": 22, "moves": []}]}, 
+			{ "name": "Fisherman Wade", "pokemons": [ {"name": "Carvanha", "level": 23, "moves": []}, {"name": "Qwilfish", "level": 23, "moves": []} ] } ], 
+		"West of Inlet - Rematches": [ 
+			{ "name": "Aroma Lady Rose (4)", "pokemons": [ {"name": "Sunflora", "level": 35, "moves": []}, {"name": "Bayleef", "level": 35, "moves": []}, {"name": "Roselia", "level": 35, "moves": []}, {"name": "Gloom", "level": 35, "moves": []} ] }, 
+			{ "name": "Aroma Lady Rose (6)", "pokemons": [ {"name": "Sunflora", "level": 47, "moves": []}, {"name": "Meganium", "level": 47, "moves": []}, {"name": "Roserade", "level": 47, "moves": []}, {"name": "Bellossom", "level": 47, "moves": []} ] }, 
+			{ "name": "Aroma Lady Rose (8)", "pokemons": [ {"name": "Sunflora", "level": 64, "moves": []}, {"name": "Meganium", "level": 64, "moves": []}, {"name": "Roserade", "level": 64, "moves": []}, {"name": "Bellossom", "level": 64, "moves": []} ] }, 
+			{ "name": "Aroma Lady Rose (C)", "pokemons": [ {"name": "Sunflora", "level": 75, "moves": []}, {"name": "Meganium", "level": 75, "moves": []}, {"name": "Roserade", "level": 75, "moves": []}, {"name": "Bellossom", "level": 75, "moves": []} ] }, 
+			{ "name": "Guitarist Dalton (4)", "pokemons": [ {"name": "Magneton", "level": 35, "moves": []}, {"name": "Loudred", "level": 35, "moves": []}, {"name": "Chatot", "level": 35, "moves": []}, {"name": "Scolipede", "level": 35, "moves": []} ] }, 
+			{ "name": "Guitarist Dalton (6)", "pokemons": [ {"name": "Magneton", "level": 47, "moves": []}, {"name": "Exploud", "level": 47, "moves": []}, {"name": "Chatot", "level": 47, "moves": []}, {"name": "Scolipede", "level": 47, "moves": []} ] }, 
+			{ "name": "Guitarist Dalton (8)", "pokemons": [ {"name": "Magnezone", "level": 64, "moves": []}, {"name": "Exploud", "level": 64, "moves": []}, {"name": "Chatot", "level": 64, "moves": []}, {"name": "Scolipede", "level": 64, "moves": []} ] }, 
+			{ "name": "Guitarist Dalton (C)", "pokemons": [ {"name": "Magnezone", "level": 75, "moves": []}, {"name": "Exploud", "level": 75, "moves": []}, {"name": "Chatot", "level": 75, "moves": []}, {"name": "Scolipede", "level": 75, "moves": []} ] } ], 
+		"East of Inlet": [ 
+			{ "name": "Interviewers Gabby & Ty", "note": "See Route 111" }, 
+			{ "name": "Fisherman Barny", "pokemons": [ {"name": "Feebas", "level": 38, "moves": []}, {"name": "Feebas", "level": 38, "moves": []} ] }, 
+			{ "name": "Bird Keeper Chester", "pokemons": [ {"name": "Staravia", "level": 37, "moves": []}, {"name": "Fearow", "level": 37, "moves": []}, {"name": "Vullaby", "level": 37, "moves": []} ] }, 
+			{ "name": "Bird Keeper Perry", "pokemons": [ {"name": "Tranquill", "level": 37, "moves": []}, {"name": "Noctowl", "level": 37, "moves": []}, {"name": "Rufflet", "level": 37, "moves": []} ] }, 
+			{ "name": "Delinquent Miley", "pokemons": [ {"name": "Mightyena", "level": 38, "moves": []}, {"name": "Liepard", "level": 38, "moves": []}, {"name": "Zoroark", "level": 38, "moves": []} ] } ], 
+		"East of Inlet - Rematches": [] }},
+"Southern Island": {
+    "trainers": [
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Nidorino", "level": 39, "moves": []}, {"name": "Magcargo", "level": 39, "moves": []}, {"name": "Zangoose", "level": 39, "moves": []}]},
+      {"name": "Magma Admin Courtney", "pokemons": [{"name": "Rapidash", "level": 42, "moves": []}, {"name": "Pyroar", "level": 42, "moves": []}, {"name": "Charizard", "level": 44, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Nidorina", "level": 39, "moves": []}, {"name": "Lumineon", "level": 39, "moves": []}, {"name": "Seviper", "level": 39, "moves": []}]},
+      {"name": "Aqua Admin Matt", "pokemons": [{"name": "Golduck", "level": 42, "moves": []}, {"name": "Barbaracle", "level": 42, "moves": []}, {"name": "Blastoise", "level": 44, "moves": []}]}
+    ],   
+    "rematches": []
+  },
+"Route 119 (Mauville)": {
+    "wild": {
+      "tall_grass": ["Arbok", "Gloom", "Weepinbell", "Quagsire", "Tropius", "Drapion", "Carnivine", "Foongus", "Amoonguss", "Sliggoo"],
+      "horde": ["Grovyle"],
+      "surfing": ["Goomy", "Stunfisk"],
+      "old_rod": ["Feebas"],
+      "good_rod": ["Feebas"],
+      "super_rod": ["Feebas", "Milotic"]
+    },
+    "trainers": [
+      {"name": "Bug Maniac Donald", "pokemons": [{"name": "Scyther", "level": 40, "moves": []}, {"name": "Pinsir", "level": 40, "moves": []}, {"name": "Heracross", "level": 40, "moves": []}]},
+      {"name": "Bug Catcher Doug", "pokemons": [{"name": "Beautifly", "level": 39, "moves": []}, {"name": "Parasect", "level": 39, "moves": []}, {"name": "Ninjask", "level": 39, "moves": []}]},
+      {"name": "Bug Catcher Kent", "pokemons": [{"name": "Dustox", "level": 39, "moves": []}, {"name": "Venomoth", "level": 39, "moves": []}, {"name": "Wormadam", "level": 39, "moves": []}]},
+      {"name": "Bug Catcher Greg", "pokemons": [{"name": "Ariados", "level": 39, "moves": []}, {"name": "Vivillon", "level": 39, "moves": []}, {"name": "Beedrill", "level": 39, "moves": []}]},
+      {"name": "Bug Maniac Taylor", "pokemons": [{"name": "Yanmega", "level": 40, "moves": []}, {"name": "Vespiquen", "level": 40, "moves": []}, {"name": "Armaldo", "level": 40, "moves": []}]},
+      {"name": "Bug Maniac Brent", "pokemons": [{"name": "Scizor", "level": 40, "moves": []}, {"name": "Durant", "level": 40, "moves": []}, {"name": "Escavalier", "level": 40, "moves": []}]},
+      {"name": "PKMN Ranger Catherine", "pokemons": [{"name": "Fraxure", "level": 40, "moves": []}, {"name": "Torterra", "level": 40, "moves": []}, {"name": "Excadrill", "level": 40, "moves": []}]},
+      {"name": "Brains & Brawn Jael & Kael", "pokemons": [{"name": "Alakazam", "level": 43, "moves": []}, {"name": "Conkeldurr", "level": 43, "moves": []}]},
+      {"name": "PKMN Ranger Jackson", "pokemons": [{"name": "Vigoroth", "level": 40, "moves": []}, {"name": "Heatmor", "level": 40, "moves": []}, {"name": "Tropius", "level": 40, "moves": []}]},
+      {"name": "Bird Keeper Hugh", "pokemons": [{"name": "Dodrio", "level": 41, "moves": []}, {"name": "Swellow", "level": 41, "moves": []}]},
+      {"name": "Ninja Boy Takashi", "pokemons": [{"name": "Accelgor", "level": 42, "moves": []}]},
+      {"name": "Bird Keeper Phil", "pokemons": [{"name": "Natu", "level": 40, "moves": []}, {"name": "Natu", "level": 40, "moves": []}, {"name": "Xatu", "level": 40, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "PKMN Ranger Catherine (6)", "pokemons": [{"name": "Fraxure", "level": 47, "moves": []}, {"name": "Torterra", "level": 47, "moves": []}, {"name": "Excadrill", "level": 47, "moves": []}, {"name": "Beartic", "level": 47, "moves": []}]},
+      {"name": "PKMN Ranger Catherine (7)", "pokemons": [{"name": "Haxorus", "level": 59, "moves": []}, {"name": "Torterra", "level": 59, "moves": []}, {"name": "Excadrill", "level": 59, "moves": []}, {"name": "Beartic", "level": 59, "moves": []}]},
+      {"name": "PKMN Ranger Catherine (8)", "pokemons": [{"name": "Haxorus", "level": 64, "moves": []}, {"name": "Torterra", "level": 64, "moves": []}, {"name": "Excadrill", "level": 64, "moves": []}, {"name": "Beartic", "level": 64, "moves": []}]},
+      {"name": "PKMN Ranger Catherine (C)", "pokemons": [{"name": "Haxorus", "level": 75, "moves": []}, {"name": "Torterra", "level": 75, "moves": []}, {"name": "Excadrill", "level": 75, "moves": []}, {"name": "Beartic", "level": 75, "moves": []}]},
+      {"name": "Brains & Brawn Jael & Kael (6)", "pokemons": [{"name": "Alakazam", "level": 47, "moves": []}, {"name": "Conkeldurr", "level": 47, "moves": []}]},
+      {"name": "Brains & Brawn Jael & Kael (7)", "pokemons": [{"name": "Alakazam", "level": 59, "moves": []}, {"name": "Conkeldurr", "level": 59, "moves": []}, {"name": "Reuniclus", "level": 59, "moves": []}, {"name": "Machamp", "level": 59, "moves": []}]},
+      {"name": "Brains & Brawn Jael & Kael (8)", "pokemons": [{"name": "Alakazam", "level": 64, "moves": []}, {"name": "Conkeldurr", "level": 64, "moves": []}, {"name": "Reuniclus", "level": 64, "moves": []}, {"name": "Machamp", "level": 64, "moves": []}]},
+      {"name": "Brains & Brawn Jael & Kael (C)", "pokemons": [{"name": "Alakazam", "level": 75, "moves": []}, {"name": "Conkeldurr", "level": 75, "moves": []}, {"name": "Reuniclus", "level": 75, "moves": []}, {"name": "Machamp", "level": 75, "moves": []}]},
+      {"name": "PKMN Ranger Jackson (6)", "pokemons": [{"name": "Vigoroth", "level": 47, "moves": []}, {"name": "Heatmor", "level": 47, "moves": []}, {"name": "Tropius", "level": 47, "moves": []}, {"name": "Kingdra", "level": 47, "moves": []}]},
+      {"name": "PKMN Ranger Jackson (7)", "pokemons": [{"name": "Slaking", "level": 59, "moves": []}, {"name": "Heatmor", "level": 59, "moves": []}, {"name": "Tropius", "level": 59, "moves": []}, {"name": "Kingdra", "level": 59, "moves": []}]},
+      {"name": "PKMN Ranger Jackson (8)", "pokemons": [{"name": "Slaking", "level": 64, "moves": []}, {"name": "Heatmor", "level": 64, "moves": []}, {"name": "Tropius", "level": 64, "moves": []}, {"name": "Kingdra", "level": 64, "moves": []}]},
+      {"name": "PKMN Ranger Jackson (C)", "pokemons": [{"name": "Slaking", "level": 75, "moves": []}, {"name": "Heatmor", "level": 75, "moves": []}, {"name": "Tropius", "level": 75, "moves": []}, {"name": "Kingdra", "level": 75, "moves": []}]}
+    ]
+  },
+"Weather Institute": {
+    "trainers": [
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Mightyena", "level": 43, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Steelix", "level": 43, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Camerupt", "level": 43, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Golbat", "level": 43, "moves": []}]},
+      {"name": "Magma Admin Tabitha", "pokemons": [{"name": "Mightyena", "level": 46, "moves": []}, {"name": "Weezing", "level": 46, "moves": []}, {"name": "Snorlax", "level": 46, "moves": []}, {"name": "Gigalith", "level": 46, "moves": []}, {"name": "Camerupt", "level": 46, "moves": []}, {"name": "Darmanitan", "level": 48, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Liepard", "level": 43, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Tangrowth", "level": 43, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Sharpedo", "level": 43, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Golbat", "level": 43, "moves": []}]},
+      {"name": "Aqua Admin Shelly", "pokemons": [{"name": "Liepard", "level": 46, "moves": []}, {"name": "Muk", "level": 46, "moves": []}, {"name": "Lapras", "level": 46, "moves": []}, {"name": "Roserade", "level": 46, "moves": []}, {"name": "Sharpedo", "level": 46, "moves": []}, {"name": "Jellicent", "level": 48, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 119 (Fortree)": {
+    "wild": {
+      "tall_grass": ["Arbok", "Gloom", "Weepinbell", "Quagsire", "Tropius", "Drapion", "Carnivine", "Foongus", "Amoonguss", "Sliggoo"],
+      "horde": ["Grovyle"],
+      "surfing": ["Goomy", "Stunfisk"],
+      "old_rod": ["Feebas"],
+      "good_rod": ["Feebas"],
+      "super_rod": ["Feebas", "Milotic"]
+    },
+    "trainers": [
+      {"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 47, "moves": []}, {"name": "Raichu", "level": 47, "moves": []}, {"name": "Rapidash", "level": 47, "moves": []}, {"name": "Wailord", "level": 47, "moves": []}, {"name": "Sceptile", "level": 49, "moves": []}]},
+      {"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 47, "moves": []}, {"name": "Raichu", "level": 47, "moves": []}, {"name": "Wailord", "level": 47, "moves": []}, {"name": "Breloom", "level": 47, "moves": []}, {"name": "Blaziken", "level": 49, "moves": []}]},
+      {"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 47, "moves": []}, {"name": "Raichu", "level": 47, "moves": []}, {"name": "Breloom", "level": 47, "moves": []}, {"name": "Rapidash", "level": 47, "moves": []}, {"name": "Swampert", "level": 49, "moves": []}]},
+      {"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 47, "moves": []}, {"name": "Raichu", "level": 47, "moves": []}, {"name": "Rapidash", "level": 47, "moves": []}, {"name": "Wailord", "level": 47, "moves": []}, {"name": "Sceptile", "level": 49, "moves": []}]},
+      {"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 47, "moves": []}, {"name": "Raichu", "level": 47, "moves": []}, {"name": "Wailord", "level": 47, "moves": []}, {"name": "Breloom", "level": 47, "moves": []}, {"name": "Blaziken", "level": 49, "moves": []}]},
+      {"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 47, "moves": []}, {"name": "Raichu", "level": 47, "moves": []}, {"name": "Breloom", "level": 47, "moves": []}, {"name": "Rapidash", "level": 47, "moves": []}, {"name": "Swampert", "level": 49, "moves": []}]},
+      {"name": "Ninja Boy Yasu", "pokemons": [{"name": "Electrode", "level": 43, "moves": []}, {"name": "Weezing", "level": 43, "moves": []}]},
+      {"name": "Ninja Boy Hideo", "pokemons": [{"name": "Greninja", "level": 44, "moves": []}]},
+      {"name": "Fisherman Eugene", "pokemons": [{"name": "Stunfisk", "level": 44, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Fortree City": {
+    "trainers": [
+      {"name": "Secret Base Expert Aarune", "pokemons": [{"name": "Flygon", "level": 48, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 120 (Fortree)": {
+    "wild": {
+      "tall_grass": ["Altaria", "Absol", "Drifblim", "Purugly", "Skuntank", "Scrafty", "Mienshao", "Bisharp", "Rufflet", "Vullaby"],
+      "horde": ["Combusken"],
+      "surfing": ["Buizel", "Floatzel"],
+      "old_rod": ["Barboach"],
+      "good_rod": ["Barboach"],
+      "super_rod": ["Whiscash"]
+    },
+    "trainers": [
+      {"name": "Parasol Lady Clarissa", "pokemons": [{"name": "Castform", "level": 46, "moves": []}]},
+      {"name": "Bird Keeper Robert", "pokemons": [{"name": "Pidgeot", "level": 46, "moves": []}]},
+      {"name": "Bird Keeper Colin", "pokemons": [{"name": "Staraptor", "level": 46, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "Bird Keeper Robert (7)", "pokemons": [{"name": "Altaria", "level": 59, "moves": []}, {"name": "Pidgeot", "level": 59, "moves": []}, {"name": "Staraptor", "level": 59, "moves": []}]},
+      {"name": "Bird Keeper Robert (8)", "pokemons": [{"name": "Altaria", "level": 64, "moves": []}, {"name": "Pidgeot", "level": 64, "moves": []}, {"name": "Staraptor", "level": 64, "moves": []}, {"name": "Fearow", "level": 64, "moves": []}]},
+      {"name": "Bird Keeper Robert (C)", "pokemons": [{"name": "Altaria", "level": 75, "moves": []}, {"name": "Pidgeot", "level": 75, "moves": []}, {"name": "Staraptor", "level": 75, "moves": []}, {"name": "Fearow", "level": 75, "moves": []}]}
+    ]
+  },
+"Scorched Slab": {
+    "wild": {
+      "main": {
+        "walking": ["Zubat", "Onix", "Rhyhorn", "Aron", "Woobat", "Drilbur", "Timburr", "Axew", "Larvesta", "Noibat"],
+        "horde": ["Zubat"],
+        "surfing": ["Zubat", "Golbat"],
+        "old_rod": ["Poliwag"],
+        "good_rod": ["Poliwag"],
+        "super_rod": ["Poliwhirl"]
+      },
+      "basement": {
+        "walking": ["Golbat", "Rhydon", "Steelix", "Lairon", "Swoobat", "Excadrill", "Gurdurr", "Fraxure", "Volcarona", "Noivern"],
+        "horde": ["Golbat"],
+        "surfing": ["Buizel", "Floatzel"],
+        "old_rod": ["Barboach"],
+        "good_rod": ["Barboach"],
+        "super_rod": ["Whiscash"]
+      }
+    },
+    "trainers": [],
+    "rematches": []
+  },
+"Fortree Gym": {
+    "trainers": [
+      {"name": "Bird Keeper Jared", "pokemons": [{"name": "Dodrio", "level": 45, "moves": []}, {"name": "Noctowl", "level": 45, "moves": []}, {"name": "Swanna", "level": 45, "moves": []}]},
+      {"name": "Picnicker Kylee", "pokemons": [{"name": "Gliscor", "level": 45, "moves": []}, {"name": "Togekiss", "level": 45, "moves": []}, {"name": "Jumpluff", "level": 45, "moves": []}]},
+      {"name": "Camper Terrell", "pokemons": [{"name": "Tropius", "level": 45, "moves": []}, {"name": "Crobat", "level": 45, "moves": []}, {"name": "Swoobat", "level": 45, "moves": []}]},
+      {"name": "Bird Keeper Will", "pokemons": [{"name": "Braviary", "level": 45, "moves": []}, {"name": "Farfetch'd", "level": 45, "moves": []}, {"name": "Delibird", "level": 45, "moves": []}]},
+      {"name": "Bird Keeper Bran", "pokemons": [{"name": "Hawlucha", "level": 45, "moves": []}, {"name": "Xatu", "level": 45, "moves": []}, {"name": "Mandibuzz", "level": 45, "moves": []}]},
+      {"name": "Leader Winona", "pokemons": [{"name": "Skarmory", "level": 48, "moves": []}, {"name": "Honchkrow", "level": 48, "moves": []}, {"name": "Sigilyph", "level": 48, "moves": []}, {"name": "Gyarados", "level": 48, "moves": []}, {"name": "Talonflame", "level": 48, "moves": []}, {"name": "Altaria", "level": 50, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 120 South-West": {
+    "wild": {
+      "tall_grass": ["Altaria", "Absol", "Drifblim", "Purugly", "Skuntank", "Scrafty", "Mienshao", "Bisharp", "Braviary", "Mandibuzz"],
+      "horde": ["Pawniard"],
+      "surfing": ["Buizel", "Floatzel"],
+      "old_rod": ["Barboach"],
+      "good_rod": ["Barboach"],
+      "super_rod": ["Whiscash"]
+    },
+    "trainers": [
+      {"name": "Ninja Boy Tsunao", "pokemons": [{"name": "Mothim", "level": 46, "moves": []}, {"name": "Toxicroak", "level": 46, "moves": []}, {"name": "Drapion", "level": 46, "moves": []}]},
+      {"name": "Ace Trainer Jennifer", "pokemons": [{"name": "Meganium", "level": 47, "moves": []}, {"name": "Milotic", "level": 47, "moves": []}, {"name": "Mismagius", "level": 47, "moves": []}, {"name": "Raichu", "level": 47, "moves": []}]},
+      {"name": "Parasol Lady Angelica", "pokemons": [{"name": "Ninetales", "level": 45, "moves": []}, {"name": "Castform", "level": 45, "moves": []}, {"name": "Sunflora", "level": 45, "moves": []}, {"name": "Cherrim", "level": 45, "moves": []}]},
+      {"name": "Bug Maniac Brandon", "pokemons": [{"name": "Kricketune", "level": 47, "moves": []}, {"name": "Ariados", "level": 47, "moves": []}, {"name": "Forretress", "level": 47, "moves": []}]},
+      {"name": "Street Thug Gomez", "pokemons": [{"name": "Houndoom", "level": 47, "moves": []}, {"name": "Amoonguss", "level": 47, "moves": []}, {"name": "Nidoking", "level": 47, "moves": []}]},
+      {"name": "Delinquent Sharlene", "pokemons": [{"name": "Scrafty", "level": 47, "moves": []}, {"name": "Nidoqueen", "level": 47, "moves": []}, {"name": "Weavile", "level": 47, "moves": []}]},
+      {"name": "Ruin Maniac Chip", "pokemons": [{"name": "Cradily", "level": 45, "moves": []}, {"name": "Aurorus", "level": 45, "moves": []}, {"name": "Bastiodon", "level": 45, "moves": []}, {"name": "Tyrantrum", "level": 45, "moves": []}]},
+      {"name": "Ninja Boy Keigo", "pokemons": [{"name": "Ninjask", "level": 47, "moves": []}, {"name": "Skuntank", "level": 47, "moves": []}]},
+      {"name": "PKMN Ranger Carlos", "pokemons": [{"name": "Magnezone", "level": 46, "moves": []}, {"name": "Venusaur", "level": 46, "moves": []}, {"name": "Pyroar", "level": 46, "moves": []}, {"name": "Golduck", "level": 46, "moves": []}]},
+      {"name": "PKMN Ranger Jenna", "pokemons": [{"name": "Rapidash", "level": 46, "moves": []}, {"name": "Empoleon", "level": 46, "moves": []}, {"name": "Tangrowth", "level": 46, "moves": []}, {"name": "Luxray", "level": 46, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "Bug Maniac Brandon (7)", "pokemons": [{"name": "Kricketune", "level": 59, "moves": []}, {"name": "Ariados", "level": 59, "moves": []}, {"name": "Forretress", "level": 59, "moves": []}, {"name": "Heracross", "level": 59, "moves": []}]},
+      {"name": "Bug Maniac Brandon (8)", "pokemons": [{"name": "Kricketune", "level": 64, "moves": []}, {"name": "Ariados", "level": 64, "moves": []}, {"name": "Forretress", "level": 64, "moves": []}, {"name": "Heracross", "level": 64, "moves": []}]},
+      {"name": "Bug Maniac Brandon (C)", "pokemons": [{"name": "Kricketune", "level": 75, "moves": []}, {"name": "Ariados", "level": 75, "moves": []}, {"name": "Forretress", "level": 75, "moves": []}, {"name": "Heracross", "level": 75, "moves": []}]},
+      {"name": "Street Thug Gomez (7)", "pokemons": [{"name": "Houndoom", "level": 59, "moves": []}, {"name": "Amoonguss", "level": 59, "moves": []}, {"name": "Nidoking", "level": 59, "moves": []}, {"name": "Absol", "level": 59, "moves": []}]},
+      {"name": "Street Thug Gomez (8)", "pokemons": [{"name": "Houndoom", "level": 64, "moves": []}, {"name": "Amoonguss", "level": 64, "moves": []}, {"name": "Nidoking", "level": 64, "moves": []}, {"name": "Absol", "level": 64, "moves": []}]},
+      {"name": "Street Thug Gomez (C)", "pokemons": [{"name": "Houndoom", "level": 75, "moves": []}, {"name": "Amoonguss", "level": 75, "moves": []}, {"name": "Nidoking", "level": 75, "moves": []}, {"name": "Absol", "level": 75, "moves": []}]},
+      {"name": "Delinquent Sharlene (7)", "pokemons": [{"name": "Scrafty", "level": 59, "moves": []}, {"name": "Nidoqueen", "level": 59, "moves": []}, {"name": "Weavile", "level": 59, "moves": []}, {"name": "Umbreon", "level": 59, "moves": []}]},
+      {"name": "Delinquent Sharlene (8)", "pokemons": [{"name": "Scrafty", "level": 64, "moves": []}, {"name": "Nidoqueen", "level": 64, "moves": []}, {"name": "Weavile", "level": 64, "moves": []}, {"name": "Umbreon", "level": 64, "moves": []}]},
+      {"name": "Delinquent Sharlene (C)", "pokemons": [{"name": "Scrafty", "level": 75, "moves": []}, {"name": "Nidoqueen", "level": 75, "moves": []}, {"name": "Weavile", "level": 75, "moves": []}, {"name": "Umbreon", "level": 75, "moves": []}]}
+    ]
+  },
+"Route 121": {
+    "wild": {
+      "grass": ["Meowth", "Ponyta", "Doduo", "Drowzee", "Flaaffy", "Mightyena", "Shuppet", "Herdier", "Blitzle", "Diggersby"],
+      "tall_grass": ["Persian", "Rapidash", "Dodrio", "Hypno", "Flaaffy", "Mightyena", "Banette", "Herdier", "Zebstrika", "Diggersby"],
+      "dexnav": ["Stoutland"],
+      "horde": ["Drowzee"]
+    },
+    "trainers": [
+      {"name": "Hex Maniac Tammy", "pokemons": [{"name": "Haunter", "level": 47, "moves": []}, {"name": "Misdreavus", "level": 47, "moves": []}, {"name": "Banette", "level": 47, "moves": []}]},
+      {"name": "Beauty Jessica", "pokemons": [{"name": "Seviper", "level": 47, "moves": []}, {"name": "Krookodile", "level": 47, "moves": []}, {"name": "Absol", "level": 47, "moves": []}]},
+      {"name": "Gentleman Walter", "pokemons": [{"name": "Manectric", "level": 47, "moves": []}, {"name": "Arcanine", "level": 47, "moves": []}, {"name": "Ampharos", "level": 47, "moves": []}]},
+      {"name": "Poké Fan Vanessa", "pokemons": [{"name": "Granbull", "level": 47, "moves": []}, {"name": "Meowstic", "level": 47, "moves": []}, {"name": "Glaceon", "level": 47, "moves": []}]},
+      {"name": "Teammates Kate & Joy", "pokemons": [{"name": "Spinda", "level": 49, "moves": []}, {"name": "Slaking", "level": 50, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "Beauty Jessica (7)", "pokemons": [{"name": "Seviper", "level": 59, "moves": []}, {"name": "Krookodile", "level": 59, "moves": []}, {"name": "Absol", "level": 59, "moves": []}, {"name": "Dragalge", "level": 59, "moves": []}]},
+      {"name": "Beauty Jessica (8)", "pokemons": [{"name": "Seviper", "level": 64, "moves": []}, {"name": "Krookodile", "level": 64, "moves": []}, {"name": "Absol", "level": 64, "moves": []}, {"name": "Dragalge", "level": 64, "moves": []}]},
+      {"name": "Beauty Jessica (C)", "pokemons": [{"name": "Seviper", "level": 75, "moves": []}, {"name": "Krookodile", "level": 75, "moves": []}, {"name": "Absol", "level": 75, "moves": []}, {"name": "Dragalge", "level": 75, "moves": []}]},
+      {"name": "Gentleman Walter (7)", "pokemons": [{"name": "Manectric", "level": 59, "moves": []}, {"name": "Arcanine", "level": 59, "moves": []}, {"name": "Ampharos", "level": 59, "moves": []}, {"name": "Stoutland", "level": 59, "moves": []}]},
+      {"name": "Gentleman Walter (8)", "pokemons": [{"name": "Manectric", "level": 64, "moves": []}, {"name": "Arcanine", "level": 64, "moves": []}, {"name": "Ampharos", "level": 64, "moves": []}, {"name": "Stoutland", "level": 64, "moves": []}]},
+      {"name": "Gentleman Walter (C)", "pokemons": [{"name": "Manectric", "level": 75, "moves": []}, {"name": "Arcanine", "level": 75, "moves": []}, {"name": "Ampharos", "level": 75, "moves": []}, {"name": "Stoutland", "level": 75, "moves": []}]}
+    ]
+  },
+"Safari Zone": {
+    "wild": {
+      "area 1": {
+        "grass": ["Butterfree", "Beedrill", "Ledian", "Ariados", "Kricketune", "Wormadam"],
+        "tall_grass": ["Beautifly", "Dustox", "Mothim", "Swadloon", "Whirlipede", "Vivillon"],
+        "dexnav": ["Leavanny"],
+        "horde": ["Vivillon"],
+        "surfing": ["Masquerain"],
+        "old_rod": ["Qwilfish"],
+        "good_rod": ["Qwilfish"],
+        "super_rod": ["Qwilfish"]
+      },
+      "area 2": {
+        "grass": ["Pidgeotto", "Noctowl", "Staravia", "Tranquill", "Fletchinder"],
+        "tall_grass": ["Raticate", "Furret", "Vigoroth", "Bibarel", "Watchog"],
+        "dexnav": ["Pidgeot"],
+        "horde": ["Fletchinder"],
+        "surfing": ["Swanna"],
+        "old_rod": ["Finneon"],
+        "good_rod": ["Finneon"],
+        "super_rod": ["Lumineon"]
+      },
+      "area 3": {
+        "grass": ["Nidorina", "Nidorino", "Swalot", "Toxicroak", "Palpitoad"],
+        "tall_grass": ["Magmar", "Houndoom", "Camerupt", "Darmanitan", "Pyroar"],
+        "dexnav": ["Seismitoad"],
+        "horde": ["Houndour"],
+        "surfing": ["Gastrodon"],
+        "old_rod": ["Barboach"],
+        "good_rod": ["Barboach"],
+        "super_rod": ["Whiscash"]
+      },
+      "area 4": {
+        "grass": ["Sudowoodo", "Lombre", "Nuzleaf", "Breloom", "Gogoat"],
+        "tall_grass": ["Mr. Mime", "Wobbuffet", "Grumpig", "Meowstic", "Doublade"],
+        "dexnav": ["Shiftry"],
+        "horde": ["Wynaut"],
+        "surfing": ["Quagsire"],
+        "old_rod": ["Goldeen"],
+        "good_rod": ["Goldeen"],
+        "super_rod": ["Seaking"]
+      }
+    },
+    "trainers": [],
+    "rematches": []
+  },
+"Route 122": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Frillish", "Jellicent"],
+      "old_rod": ["Finneon"],
+      "good_rod": ["Finneon"],
+      "super_rod": ["Lumineon"]
+    },
+    "trainers": [],
+    "rematches": []
+  },
+"Route 123": {
+    "wild": {
+      "tall_grass": ["Parasect", "Venomoth", "Dugtrio", "Primeape", "Machoke", "Forretress", "Granbull", "Kecleon", "Liepard", "Pangoro"],
+      "horde": ["Machop"],
+      "surfing": ["Marill", "Azumarill"],
+      "old_rod": ["Corphish"],
+      "good_rod": ["Corphish"],
+      "super_rod": ["Crawdaunt"]
+    },
+    "trainers": [
+      {"name": "Aroma Lady Violet", "pokemons": [{"name": "Gloom", "level": 39, "moves": []}, {"name": "Vileplume", "level": 39, "moves": []}, {"name": "Bellossom", "level": 39, "moves": []}]},
+      {"name": "Twins Miu & Yuki", "pokemons": [{"name": "Simisear", "level": 41, "moves": []}, {"name": "Simisage", "level": 41, "moves": []}]},
+      {"name": "Psychic Cameron", "pokemons": [{"name": "Malamar", "level": 50, "moves": []}, {"name": "Grumpig", "level": 50, "moves": []}, {"name": "Musharna", "level": 50, "moves": []}]},
+      {"name": "Picnicker Martha", "pokemons": [{"name": "Leafeon", "level": 49, "moves": []}, {"name": "Piloswine", "level": 49, "moves": []}, {"name": "Sliggoo", "level": 49, "moves": []}]},
+      {"name": "Street Thug Hannibal", "pokemons": [{"name": "Doublade", "level": 50, "moves": []}, {"name": "Muk", "level": 50, "moves": []}, {"name": "Garbodor", "level": 50, "moves": []}]},
+      {"name": "Delinquent Kylie", "pokemons": [{"name": "Victreebel", "level": 50, "moves": []}, {"name": "Umbreon", "level": 50, "moves": []}, {"name": "Bisharp", "level": 50, "moves": []}]},
+      {"name": "Ace Trainer Clyde", "pokemons": [{"name": "Haxorus", "level": 50, "moves": []}, {"name": "Rhyperior", "level": 50, "moves": []}, {"name": "Blaziken", "level": 50, "moves": []}, {"name": "Gengar", "level": 50, "moves": []}]},
+      {"name": "Ace Trainer Julie", "pokemons": [{"name": "Stantler", "level": 50, "moves": []}, {"name": "Typhlosion", "level": 50, "moves": []}, {"name": "Klinklang", "level": 50, "moves": []}, {"name": "Lilligant", "level": 50, "moves": []}]},
+      {"name": "Ace Trainer Wendy", "pokemons": [{"name": "Gothitelle", "level": 50, "moves": []}, {"name": "Samurott", "level": 50, "moves": []}, {"name": "Volcarona", "level": 50, "moves": []}, {"name": "Roserade", "level": 50, "moves": []}]},
+      {"name": "Fisherman Timin", "pokemons": [{"name": "Seaking", "level": 51, "moves": []}]},
+      {"name": "Fisherman Fisher", "pokemons": [{"name": "Whiscash", "level": 51, "moves": []}]},
+      {"name": "Fisherman Finley", "pokemons": [{"name": "Crawdaunt", "level": 51, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "Psychic Cameron (7)", "pokemons": [{"name": "Malamar", "level": 59, "moves": []}, {"name": "Grumpig", "level": 59, "moves": []}, {"name": "Musharna", "level": 59, "moves": []}, {"name": "Solrock", "level": 59, "moves": []}]},
+      {"name": "Psychic Cameron (8)", "pokemons": [{"name": "Malamar", "level": 64, "moves": []}, {"name": "Grumpig", "level": 64, "moves": []}, {"name": "Musharna", "level": 64, "moves": []}, {"name": "Solrock", "level": 64, "moves": []}]},
+      {"name": "Psychic Cameron (C)", "pokemons": [{"name": "Malamar", "level": 75, "moves": []}, {"name": "Grumpig", "level": 75, "moves": []}, {"name": "Musharna", "level": 75, "moves": []}, {"name": "Solrock", "level": 75, "moves": []}]}
+    ]
+  },
+"Mt. Pyre": {
+    "wild": {
+      "1F / 2F": {
+        "walking": ["Zubat", "Gastly", "Ralts", "Shuppet", "Duskull", "Gothita", "Solosis", "Yamask", "Elgyem", "Litwick"],
+        "horde": ["Gastly"]
+      },
+      "3F / 4F": {
+        "walking": ["Golbat", "Haunter", "Kirlia", "Banette", "Dusclops", "Gothorita", "Duosion", "Cofagrigus", "Beheeyem", "Lampent"],
+        "horde": ["Haunter"]
+      },
+      "Summit 1": {
+        "walking": ["Spearow", "Vulpix", "Growlithe", "Hoothoot", "Natu", "Murkrow", "Misdreavus", "Meditite", "Bronzor", "Chingling"],
+        "dexnav": ["Mismagius"],
+        "horde": ["Bronzor"]
+      },
+      "Summit 2": {
+        "walking": ["Fearow", "Vulpix", "Growlithe", "Noctowl", "Xatu", "Murkrow", "Misdreavus", "Medicham", "Chimecho", "Bronzong"],
+        "dexnav": ["Ninetales"],
+        "horde": ["Bronzor"]
+      }
+    },
+    "trainers": {
+      "1F / 2F": [
+        {"name": "Hex Maniac Valerie", "pokemons": [{"name": "Dusclops", "level": 49, "moves": []}, {"name": "Cofagrigus", "level": 49, "moves": []}, {"name": "Lampent", "level": 49, "moves": []}]},
+        {"name": "Poké Maniac Mark", "pokemons": [{"name": "Donphan", "level": 49, "moves": []}, {"name": "Rhydon", "level": 49, "moves": []}, {"name": "Aggron", "level": 49, "moves": []}]},
+        {"name": "Psychic William", "pokemons": [{"name": "Chimecho", "level": 50, "moves": []}, {"name": "Jynx", "level": 50, "moves": []}, {"name": "Hypno", "level": 50, "moves": []}]},
+        {"name": "Black Belt Atsushi", "pokemons": [{"name": "Mienshao", "level": 51, "moves": []}, {"name": "Machamp", "level": 51, "moves": []}]},
+        {"name": "Young Couple Dez & Luke", "pokemons": [{"name": "Aromatisse", "level": 51, "moves": []}, {"name": "Slurpuff", "level": 51, "moves": []}]},
+        {"name": "Fairy Tale Girl Momo", "pokemons": [{"name": "Wigglytuff", "level": 49, "moves": []}, {"name": "Clefable", "level": 49, "moves": []}, {"name": "Florges", "level": 49, "moves": []}]}
+      ],
+      "3F / 4F": [
+        {"name": "Mysterious Sisters Elle & Aya", "pokemons": [{"name": "Florges", "level": 51, "moves": []}, {"name": "Gourgeist", "level": 52, "moves": []}]},
+        {"name": "Hex Maniac Tasha", "pokemons": [{"name": "Trevenant", "level": 50, "moves": []}, {"name": "Chandelure", "level": 50, "moves": []}]},
+        {"name": "Backpacker Darnell", "pokemons": [{"name": "Dugtrio", "level": 49, "moves": []}, {"name": "Abomasnow", "level": 49, "moves": []}, {"name": "Girafarig", "level": 49, "moves": []}]}
+      ],
+      "Summit 2": [
+        {"name": "Team Magma Grunt", "pokemons": [{"name": "Mightyena", "level": 49, "moves": []}, {"name": "Golbat", "level": 49, "moves": []}, {"name": "Camerupt", "level": 49, "moves": []}]},
+        {"name": "Team Magma Grunt", "pokemons": [{"name": "Darmanitan", "level": 51, "moves": []}]},
+        {"name": "Team Magma Grunt", "pokemons": [{"name": "Houndour", "level": 49, "moves": []}, {"name": "Larvitar", "level": 49, "moves": []}, {"name": "Houndoom", "level": 49, "moves": []}]},
+        {"name": "Magma Admin Courtney", "pokemons": [{"name": "Rapidash", "level": 53, "moves": []}, {"name": "Pyroar", "level": 53, "moves": []}, {"name": "Rhyperior", "level": 53, "moves": []}, {"name": "Charizard", "level": 55, "moves": []}]},
+        {"name": "Team Aqua Grunt", "pokemons": [{"name": "Liepard", "level": 49, "moves": []}, {"name": "Golbat", "level": 49, "moves": []}, {"name": "Sharpedo", "level": 49, "moves": []}]},
+        {"name": "Team Aqua Grunt", "pokemons": [{"name": "Jellicent", "level": 51, "moves": []}]},
+        {"name": "Team Aqua Grunt", "pokemons": [{"name": "Tentacool", "level": 49, "moves": []}, {"name": "Dratini", "level": 49, "moves": []}, {"name": "Tentacruel", "level": 49, "moves": []}]},
+        {"name": "Aqua Admin Matt", "pokemons": [{"name": "Golduck", "level": 53, "moves": []}, {"name": "Barbaracle", "level": 53, "moves": []}, {"name": "Ferrothorn", "level": 53, "moves": []}, {"name": "Blastoise", "level": 55, "moves": []}]}
+      ]
+    },
+    "rematches": {
+      "1F / 2F": [
+        {"name": "Hex Maniac Valerie (7)", "pokemons": [{"name": "Dusclops", "level": 59, "moves": []}, {"name": "Cofagrigus", "level": 59, "moves": []}, {"name": "Chandelure", "level": 59, "moves": []}, {"name": "Gourgeist", "level": 59, "moves": []}]},
+        {"name": "Hex Maniac Valerie (8)", "pokemons": [{"name": "Dusknoir", "level": 64, "moves": []}, {"name": "Cofagrigus", "level": 64, "moves": []}, {"name": "Chandelure", "level": 64, "moves": []}, {"name": "Gourgeist", "level": 64, "moves": []}]},
+        {"name": "Hex Maniac Valerie (C)", "pokemons": [{"name": "Dusknoir", "level": 75, "moves": []}, {"name": "Cofagrigus", "level": 75, "moves": []}, {"name": "Chandelure", "level": 75, "moves": []}, {"name": "Gourgeist", "level": 75, "moves": []}]},
+        {"name": "Fairy Tale Girl Momo (7)", "pokemons": [{"name": "Wigglytuff", "level": 59, "moves": []}, {"name": "Clefable", "level": 59, "moves": []}, {"name": "Aromatisse", "level": 59, "moves": []}, {"name": "Slurpuff", "level": 59, "moves": []}]},
+        {"name": "Fairy Tale Girl Momo (8)", "pokemons": [{"name": "Wigglytuff", "level": 64, "moves": []}, {"name": "Clefable", "level": 64, "moves": []}, {"name": "Aromatisse", "level": 64, "moves": []}, {"name": "Slurpuff", "level": 64, "moves": []}]},
+        {"name": "Fairy Tale Girl Momo (C)", "pokemons": [{"name": "Wigglytuff", "level": 75, "moves": []}, {"name": "Clefable", "level": 75, "moves": []}, {"name": "Aromatisse", "level": 75, "moves": []}, {"name": "Slurpuff", "level": 75, "moves": []}]}
+      ]
+    }
+  },
+"Lilycove City": {
+    "wild": {
+      "rock_smash": ["Shuckle", "Crustle", "Barbaracle"],
+      "surfing": ["Alomomola"],
+      "old_rod": ["Staryu", "Clamperl", "Corsola"],
+      "good_rod": ["Staryu", "Clamperl", "Corsola"],
+      "super_rod": ["Starmie", "Gorebyss", "Corsola"]
+    },
+    "trainers": [
+      {"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 53, "moves": []}, {"name": "Raichu", "level": 53, "moves": []}, {"name": "Sylveon", "level": 53, "moves": []}, {"name": "Rapidash", "level": 53, "moves": []}, {"name": "Wailord", "level": 53, "moves": []}, {"name": "Sceptile", "level": 55, "moves": []}]},
+      {"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 53, "moves": []}, {"name": "Raichu", "level": 53, "moves": []}, {"name": "Sylveon", "level": 53, "moves": []}, {"name": "Wailord", "level": 53, "moves": []}, {"name": "Breloom", "level": 53, "moves": []}, {"name": "Blaziken", "level": 55, "moves": []}]},
+      {"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 53, "moves": []}, {"name": "Raichu", "level": 53, "moves": []}, {"name": "Sylveon", "level": 53, "moves": []}, {"name": "Breloom", "level": 53, "moves": []}, {"name": "Rapidash", "level": 53, "moves": []}, {"name": "Swampert", "level": 55, "moves": []}]},
+      {"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 53, "moves": []}, {"name": "Raichu", "level": 53, "moves": []}, {"name": "Sylveon", "level": 53, "moves": []}, {"name": "Rapidash", "level": 53, "moves": []}, {"name": "Wailord", "level": 53, "moves": []}, {"name": "Sceptile", "level": 55, "moves": []}]},
+      {"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 53, "moves": []}, {"name": "Raichu", "level": 53, "moves": []}, {"name": "Sylveon", "level": 53, "moves": []}, {"name": "Wailord", "level": 53, "moves": []}, {"name": "Breloom", "level": 53, "moves": []}, {"name": "Blaziken", "level": 55, "moves": []}]},
+      {"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 53, "moves": []}, {"name": "Raichu", "level": 53, "moves": []}, {"name": "Sylveon", "level": 53, "moves": []}, {"name": "Breloom", "level": 53, "moves": []}, {"name": "Rapidash", "level": 53, "moves": []}, {"name": "Swampert", "level": 55, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Magma Hideout": {
+    "wild": {
+      "surfing": ["Tentacool", "Tentacruel"],
+      "old_rod": ["Wailmer"],
+      "good_rod": ["Wailmer"],
+      "super_rod": ["Wailmer"]
+    },
+    "trainers": [
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Mightyena", "level": 54, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Weezing", "level": 52, "moves": []}, {"name": "Golbat", "level": 52, "moves": []}, {"name": "Darmanitan", "level": 52, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Golem", "level": 54, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Magcargo", "level": 52, "moves": []}, {"name": "Camerupt", "level": 52, "moves": []}, {"name": "Rhydon", "level": 52, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Zangoose", "level": 54, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Aggron", "level": 54, "moves": []}]},
+      {"name": "Team Magma Grunts", "pokemons": [{"name": "Flareon", "level": 39, "moves": []}, {"name": "Flareon", "level": 39, "moves": []}, {"name": "Flareon", "level": 39, "moves": []}, {"name": "Flareon", "level": 39, "moves": []}, {"name": "Flareon", "level": 39, "moves": []}]},
+      {"name": "Magma Admin Courtney", "pokemons": [{"name": "Rapidash", "level": 55, "moves": []}, {"name": "Pyroar", "level": 55, "moves": []}, {"name": "Rhyperior", "level": 55, "moves": []}, {"name": "Camerupt", "level": 55, "moves": []}, {"name": "Nidoking", "level": 55, "moves": []}, {"name": "Charizard", "level": 57, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Aqua Hideout": {
+    "wild": {
+      "surfing": ["Tentacool", "Tentacruel"],
+      "old_rod": ["Wailmer"],
+      "good_rod": ["Wailmer"],
+      "super_rod": ["Wailmer"]
+    },
+    "trainers": [
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Mightyena", "level": 54, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Muk", "level": 52, "moves": []}, {"name": "Golbat", "level": 52, "moves": []}, {"name": "Jellicent", "level": 52, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Vileplume", "level": 54, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Lumineon", "level": 52, "moves": []}, {"name": "Sharpedo", "level": 52, "moves": []}, {"name": "Ferrothorn", "level": 52, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Seviper", "level": 54, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Victreebel", "level": 54, "moves": []}]},
+      {"name": "Team Aqua Grunts", "pokemons": [{"name": "Vaporeon", "level": 39, "moves": []}, {"name": "Vaporeon", "level": 39, "moves": []}, {"name": "Vaporeon", "level": 39, "moves": []}, {"name": "Vaporeon", "level": 39, "moves": []}, {"name": "Vaporeon", "level": 39, "moves": []}]},
+      {"name": "Aqua Admin Matt", "pokemons": [{"name": "Golduck", "level": 55, "moves": []}, {"name": "Barbaracle", "level": 55, "moves": []}, {"name": "Ferrothorn", "level": 55, "moves": []}, {"name": "Sharpedo", "level": 55, "moves": []}, {"name": "Nidoqueen", "level": 55, "moves": []}, {"name": "Blastoise", "level": 57, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 124": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Mantyke", "Mantine"],
+      "old_rod": ["Chinchou", "Relicanth"],
+      "good_rod": ["Chinchou", "Relicanth"],
+      "super_rod": ["Chinchou", "Relicanth"]
+    },
+    "trainers": [
+      {"name": "Swimmer Jenny", "pokemons": [{"name": "Luvdisc", "level": 53, "moves": []}, {"name": "Corsola", "level": 53, "moves": []}, {"name": "Alomomola", "level": 53, "moves": []}]},
+      {"name": "Swimmer Roland", "pokemons": [{"name": "Kabutops", "level": 53, "moves": []}, {"name": "Poliwrath", "level": 53, "moves": []}, {"name": "Octillery", "level": 53, "moves": []}]},
+      {"name": "Swimmer Grace", "pokemons": [{"name": "Azumarill", "level": 54, "moves": []}, {"name": "Politoed", "level": 54, "moves": []}]},
+      {"name": "Sis & Bro Rita & Sam", "pokemons": [{"name": "Empoleon", "level": 55, "moves": []}, {"name": "Samurott", "level": 56, "moves": []}]},
+      {"name": "Swimmer Spencer", "pokemons": [{"name": "Pelipper", "level": 53, "moves": []}, {"name": "Tentacruel", "level": 53, "moves": []}, {"name": "Whiscash", "level": 53, "moves": []}]},
+      {"name": "Swimmer Chad", "pokemons": [{"name": "Golduck", "level": 53, "moves": []}, {"name": "Slowking", "level": 53, "moves": []}, {"name": "Bibarel", "level": 53, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "Swimmer Jenny (8)", "pokemons": [{"name": "Luvdisc", "level": 64, "moves": []}, {"name": "Corsola", "level": 64, "moves": []}, {"name": "Alomomola", "level": 64, "moves": []}, {"name": "Gorebyss", "level": 64, "moves": []}]},
+      {"name": "Swimmer Jenny (C)", "pokemons": [{"name": "Luvdisc", "level": 75, "moves": []}, {"name": "Corsola", "level": 75, "moves": []}, {"name": "Alomomola", "level": 75, "moves": []}, {"name": "Gorebyss", "level": 75, "moves": []}]},
+      {"name": "Sis & Bro Rita & Sam (7)", "pokemons": [{"name": "Empoleon", "level": 59, "moves": []}, {"name": "Samurott", "level": 60, "moves": []}]},
+      {"name": "Sis & Bro Rita & Sam (8)", "pokemons": [{"name": "Empoleon", "level": 65, "moves": []}, {"name": "Samurott", "level": 66, "moves": []}, {"name": "Feraligatr", "level": 65, "moves": []}, {"name": "Blastoise", "level": 66, "moves": []}]},
+      {"name": "Sis & Bro Rita & Sam (C)", "pokemons": [{"name": "Empoleon", "level": 75, "moves": []}, {"name": "Samurott", "level": 76, "moves": []}, {"name": "Feraligatr", "level": 75, "moves": []}, {"name": "Blastoise", "level": 76, "moves": []}]}
+    ]
+  },
+"Mossdeep City": {
+    "wild": {
+      "surfing": ["Alomomola"],
+      "old_rod": ["Carvanha"],
+      "good_rod": ["Carvanha"],
+      "super_rod": ["Sharpedo"]
+    },
+    "trainers": [],
+    "rematches": []
+  },
+"Route 125": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Seel", "Dewgong", "Lapras"],
+      "old_rod": ["Shellder"],
+      "good_rod": ["Shellder"],
+      "super_rod": ["Cloyster"]
+    },
+    "trainers": [
+      {"name": "Sailor Ernest", "pokemons": [{"name": "Gastrodon", "level": 54, "moves": []}, {"name": "Machamp", "level": 54, "moves": []}, {"name": "Raticate", "level": 54, "moves": []}]},
+      {"name": "Teammates Kim & Iris", "pokemons": [{"name": "Altaria", "level": 56, "moves": []}, {"name": "Charizard", "level": 57, "moves": []}]},
+      {"name": "Swimmer Stan", "pokemons": [{"name": "Carracosta", "level": 55, "moves": []}, {"name": "Clawitzer", "level": 55, "moves": []}]},
+      {"name": "Swimmer Tanya", "pokemons": [{"name": "Floatzel", "level": 55, "moves": []}, {"name": "Mantine", "level": 55, "moves": []}]},
+      {"name": "Swimmer Sharon", "pokemons": [{"name": "Lapras", "level": 56, "moves": []}]},
+      {"name": "Swimmer Cody", "pokemons": [{"name": "Feraligatr", "level": 55, "moves": []}, {"name": "Ludicolo", "level": 55, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "Sailor Ernest (8)", "pokemons": [{"name": "Gastrodon", "level": 64, "moves": []}, {"name": "Machamp", "level": 64, "moves": []}, {"name": "Raticate", "level": 64, "moves": []}, {"name": "Kingler", "level": 64, "moves": []}]},
+      {"name": "Sailor Ernest (C)", "pokemons": [{"name": "Gastrodon", "level": 75, "moves": []}, {"name": "Machamp", "level": 75, "moves": []}, {"name": "Raticate", "level": 75, "moves": []}, {"name": "Kingler", "level": 75, "moves": []}]}
+    ]
+  },
+"Shoal Cave": {
+    "wild": {
+      "1F": {
+        "walking": ["Sneasel", "Swinub", "Delibird", "Smoochum", "Snorunt", "Spheal", "Snover", "Vanillite", "Cubchoo", "Bergmite"],
+        "dexnav": ["Weavile"],
+        "horde": ["Bergmite"],
+        "surfing": ["Seel", "Dewgong"],
+        "old_rod": ["Shellder"],
+        "good_rod": ["Shellder"],
+        "super_rod": ["Cloyster"]
+      },
+      "B1F, B2F, B3F": {
+        "walking": ["Jynx", "Sneasel", "Piloswine", "Delibird", "Glalie", "Sealeo", "Abomasnow", "Vanillish", "Beartic", "Avalugg"],
+        "rock_smash": ["Graveler", "Boldore"],
+        "dexnav": ["Weavile"],
+        "horde": ["Bergmite"],
+        "surfing": ["Seel", "Dewgong"],
+        "old_rod": ["Shellder"],
+        "good_rod": ["Shellder"],
+        "super_rod": ["Cloyster"]
+      },
+      "Ice Room": {
+        "walking": ["Jynx", "Sneasel", "Piloswine", "Delibird", "Glalie", "Froslass", "Abomasnow", "Vanillish", "Cryogonal", "Beartic", "Avalugg"],
+        "horde": ["Snorunt"]
+      }
+    },
+    "trainers": [],
+    "rematches": []
+  },
+"Route 126": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Wingull", "Pelipper"],
+      "old_rod": ["Clamperl", "Relicanth"],
+      "good_rod": ["Clamperl", "Relicanth"],
+      "super_rod": ["Clamperl", "Relicanth"]
+    },
+    "trainers": [
+      {"name": "Triathlete Denzel", "pokemons": [{"name": "Starmie", "level": 55, "moves": []}, {"name": "Sharpedo", "level": 55, "moves": []}]},
+      {"name": "Swimmer Barry", "pokemons": [{"name": "Gyarados", "level": 56, "moves": []}]},
+      {"name": "Swimmer Dean", "pokemons": [{"name": "Wailord", "level": 55, "moves": []}, {"name": "Barbaracle", "level": 55, "moves": []}]},
+      {"name": "Ace Trainer Harriet", "pokemons": [{"name": "Froslass", "level": 55, "moves": []}, {"name": "Magmortar", "level": 55, "moves": []}, {"name": "Sceptile", "level": 55, "moves": []}, {"name": "Kingdra", "level": 55, "moves": []}]},
+      {"name": "Ace Trainer Leopold", "pokemons": [{"name": "Blastoise", "level": 55, "moves": []}, {"name": "Golurk", "level": 55, "moves": []}, {"name": "Electivire", "level": 55, "moves": []}, {"name": "Cryogonal", "level": 55, "moves": []}]},
+      {"name": "Swimmer Brenda", "pokemons": [{"name": "Masquerain", "level": 55, "moves": []}, {"name": "Gorebyss", "level": 55, "moves": []}]},
+      {"name": "Swimmer Nikki", "pokemons": [{"name": "Huntail", "level": 54, "moves": []}, {"name": "Lumineon", "level": 54, "moves": []}, {"name": "Swanna", "level": 54, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 127": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Tentacool", "Tentacruel"],
+      "old_rod": ["Skrelp", "Relicanth"],
+      "good_rod": ["Skrelp", "Relicanth"],
+      "super_rod": ["Dragalge", "Relicanth"]
+    },
+    "trainers": [
+      {"name": "Bird Keeper Byron", "pokemons": [{"name": "Skarmory", "level": 54, "moves": []}, {"name": "Sigilyph", "level": 54, "moves": []}, {"name": "Unfezant", "level": 54, "moves": []}]},
+      {"name": "Ace Trainer Hisato", "pokemons": [{"name": "Mamoswine", "level": 55, "moves": []}, {"name": "Wobbuffet", "level": 55, "moves": []}, {"name": "Aegislash", "level": 55, "moves": []}, {"name": "Kingdra", "level": 55, "moves": []}]},
+      {"name": "Ace Trainer Claudia", "pokemons": [{"name": "Swampert", "level": 55, "moves": []}, {"name": "Metang", "level": 55, "moves": []}, {"name": "Probopass", "level": 55, "moves": []}, {"name": "Beartic", "level": 55, "moves": []}]},
+      {"name": "Fisherman Jonah", "pokemons": [{"name": "Relicanth", "level": 56, "moves": []}]},
+      {"name": "Fisherman Henry", "pokemons": [{"name": "Lanturn", "level": 56, "moves": []}]},
+      {"name": "Fisherman Roger", "pokemons": [{"name": "Kingler", "level": 56, "moves": []}]},
+      {"name": "Black Belt Koji", "pokemons": [{"name": "Infernape", "level": 55, "moves": []}, {"name": "Heracross", "level": 55, "moves": []}, {"name": "Emboar", "level": 55, "moves": []}]},
+      {"name": "Triathlete Jaylon", "pokemons": [{"name": "Floatzel", "level": 56, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 128": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Frillish", "Jellicent"],
+      "old_rod": ["Luvdisc", "Relicanth"],
+      "good_rod": ["Luvdisc", "Relicanth"],
+      "super_rod": ["Luvdisc", "Relicanth"]
+    },
+    "trainers": [
+      {"name": "Ace Trainer Cornelius", "pokemons": [{"name": "Spiritomb", "level": 55, "moves": []}, {"name": "Noivern", "level": 55, "moves": []}, {"name": "Glalie", "level": 55, "moves": []}, {"name": "Eelektross", "level": 55, "moves": []}]},
+      {"name": "Fisherman Wayne", "pokemons": [{"name": "Wailord", "level": 56, "moves": []}]},
+      {"name": "Triathlete Isaiah", "pokemons": [{"name": "Lumineon", "level": 56, "moves": []}]},
+      {"name": "Tuber Delmar", "pokemons": [{"name": "Palpitoad", "level": 56, "moves": []}]},
+      {"name": "Tuber Marlene", "pokemons": [{"name": "Poliwhirl", "level": 56, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "Triathlete Isaiah (7)", "pokemons": [{"name": "Lumineon", "level": 59, "moves": []}, {"name": "Starmie", "level": 59, "moves": []}, {"name": "Floatzel", "level": 59, "moves": []}, {"name": "Kingdra", "level": 59, "moves": []}]},
+      {"name": "Triathlete Isaiah (8)", "pokemons": [{"name": "Lumineon", "level": 64, "moves": []}, {"name": "Starmie", "level": 64, "moves": []}, {"name": "Floatzel", "level": 64, "moves": []}, {"name": "Kingdra", "level": 64, "moves": []}]},
+      {"name": "Triathlete Isaiah (C)", "pokemons": [{"name": "Lumineon", "level": 75, "moves": []}, {"name": "Starmie", "level": 75, "moves": []}, {"name": "Floatzel", "level": 75, "moves": []}, {"name": "Kingdra", "level": 75, "moves": []}]}
+    ]
+  },
+"Ever Grande City": {
+    "wild": {
+      "surfing": ["Pelipper", "Tentacruel", "Jellicent"],
+      "old_rod": ["Luvdisc", "Corsola"],
+      "good_rod": ["Luvdisc", "Corsola"],
+      "super_rod": ["Luvdisc", "Corsola"]
+    },
+    "trainers": [],
+    "rematches": []
+  },
+"Route 129": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Wailmer", "Wailord"],
+      "old_rod": ["Wailmer", "Relicanth"],
+      "good_rod": ["Wailmer", "Relicanth"],
+      "super_rod": ["Wailmer", "Relicanth"]
+    },
+    "trainers": [
+      {"name": "Fisherman Fisk", "pokemons": [{"name": "Dragalge", "level": 56, "moves": []}]},
+      {"name": "Fisherman Sheaffer", "pokemons": [{"name": "Qwilfish", "level": 56, "moves": []}]},
+      {"name": "Swimmer Reed", "pokemons": [{"name": "Seismitoad", "level": 54, "moves": []}, {"name": "Whiscash", "level": 54, "moves": []}, {"name": "Quagsire", "level": 54, "moves": []}]},
+      {"name": "Ace Trainer Honor", "pokemons": [{"name": "Vanilluxe", "level": 55, "moves": []}, {"name": "Gigalith", "level": 55, "moves": []}, {"name": "Simisage", "level": 55, "moves": []}, {"name": "Omastar", "level": 55, "moves": []}]},
+      {"name": "Swimmer Tisha", "pokemons": [{"name": "Politoed", "level": 55, "moves": []}, {"name": "Simipour", "level": 55, "moves": []}]},
+      {"name": "Triathlete Chase", "pokemons": [{"name": "Kingdra", "level": 56, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 130": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Tentacool", "Tentacruel"],
+      "old_rod": ["Skrelp", "Relicanth"],
+      "good_rod": ["Skrelp", "Relicanth"],
+      "super_rod": ["Dragalge", "Relicanth"]
+    },
+    "trainers": [
+      {"name": "Swimmer Katie", "pokemons": [{"name": "Pelipper", "level": 54, "moves": []}, {"name": "Mantine", "level": 55, "moves": []}]},
+      {"name": "Triathlete Karsen", "pokemons": [{"name": "Azumarill", "level": 56, "moves": []}]},
+      {"name": "Swimmer Rodney", "pokemons": [{"name": "Tentacruel", "level": 54, "moves": []}, {"name": "Carracosta", "level": 54, "moves": []}, {"name": "Crawdaunt", "level": 54, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 131": {
+    "wild": {
+      "dexnav": ["Alomomola"],
+      "surfing": ["Wingull", "Pelipper"],
+      "old_rod": ["Clauncher", "Corsola"],
+      "good_rod": ["Clauncher", "Corsola"],
+      "super_rod": ["Clawitzer", "Corsola"]
+    },
+    "trainers": [
+      {"name": "Swimmer Kara", "pokemons": [{"name": "Alomomola", "level": 54, "moves": []}, {"name": "Jellicent", "level": 54, "moves": []}, {"name": "Gorebyss", "level": 54, "moves": []}]},
+      {"name": "Swimmer Herman", "pokemons": [{"name": "Relicanth", "level": 54, "moves": []}, {"name": "Empoleon", "level": 54, "moves": []}, {"name": "Golduck", "level": 54, "moves": []}]},
+      {"name": "Swimmer Susie", "pokemons": [{"name": "Corsola", "level": 54, "moves": []}, {"name": "Vaporeon", "level": 54, "moves": []}, {"name": "Dewgong", "level": 54, "moves": []}]},
+      {"name": "Swimmer Richard", "pokemons": [{"name": "Octillery", "level": 54, "moves": []}, {"name": "Barbaracle", "level": 54, "moves": []}, {"name": "Cloyster", "level": 54, "moves": []}]},
+      {"name": "Sis & Bro Rell & Ian", "pokemons": [{"name": "Slowbro", "level": 56, "moves": []}, {"name": "Slowking", "level": 57, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Mossdeep Gym": {
+    "wild": {},
+    "trainers": [
+      {"name": "Psychic Preston", "pokemons": [{"name": "Hypno", "level": 59, "moves": []}, {"name": "Beheeyem", "level": 59, "moves": []}, {"name": "Meowstic", "level": 59, "moves": []}]},
+      {"name": "Psychic Joshua", "pokemons": [{"name": "Reuniclus", "level": 59, "moves": []}, {"name": "Espeon", "level": 59, "moves": []}, {"name": "Exeggutor", "level": 59, "moves": []}]},
+      {"name": "Psychic Fritz", "pokemons": [{"name": "Grumpig", "level": 59, "moves": []}, {"name": "Starmie", "level": 59, "moves": []}, {"name": "Alakazam", "level": 59, "moves": []}]},
+      {"name": "Hex Maniac Kindra", "pokemons": [{"name": "Wobbuffet", "level": 59, "moves": []}, {"name": "Gothitelle", "level": 59, "moves": []}, {"name": "Claydol", "level": 59, "moves": []}]},
+      {"name": "Hex Manaic Patricia", "pokemons": [{"name": "Jynx", "level": 59, "moves": []}, {"name": "Mr. Mime", "level": 59, "moves": []}, {"name": "Delphox", "level": 59, "moves": []}]},
+      {"name": "Psychic Virgil", "pokemons": [{"name": "Malamar", "level": 59, "moves": []}, {"name": "Musharna", "level": 59, "moves": []}, {"name": "Girafarig", "level": 59, "moves": []}]},
+      {"name": "Leaders Liza & Tate", "pokemons": [{"name": "Solrock", "level": 60, "moves": []}, {"name": "Lunatone", "level": 60, "moves": []}, {"name": "Bronzong", "level": 60, "moves": []}, {"name": "Slowking", "level": 60, "moves": []}, {"name": "Gallade", "level": 62, "moves": []}, {"name": "Gardevoir", "level": 62, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Pacifidlog Town": {
+    "wild": {
+      "surfing": ["Corsola"],
+      "old_rod": ["Corsola"],
+      "good_rod": ["Corsola"],
+      "super_rod": ["Corsola"]
+    },
+    "trainers": [],
+    "rematches": []
+  },
+"Route 132": {
+    "wild": {
+      "dexnav": ["Kingdra"],
+      "surfing": ["Phione"],
+      "old_rod": ["Horsea", "Dratini"],
+      "good_rod": ["Horsea", "Dratini"],
+      "super_rod": ["Seadra", "Dragonair"]
+    },
+    "trainers": [
+      {"name": "Black Belt Kiyo", "pokemons": [{"name": "Hitmonchan", "level": 58, "moves": []}, {"name": "Throh", "level": 58, "moves": []}, {"name": "Hariyama", "level": 58, "moves": []}]},
+      {"name": "Fisherman Ronald", "pokemons": [{"name": "Basculin", "level": 58, "moves": []}, {"name": "Basculin", "level": 58, "moves": []}]},
+      {"name": "Swimmer Gilbert", "pokemons": [{"name": "Poliwrath", "level": 59, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 133": {
+    "wild": {
+      "dexnav": ["Kingdra"],
+      "surfing": ["Phione"],
+      "old_rod": ["Horsea", "Dratini"],
+      "good_rod": ["Horsea", "Dratini"],
+      "super_rod": ["Seadra", "Dragonair"]
+    },
+    "trainers": [
+      {"name": "Swimmer Debra", "pokemons": [{"name": "Corsola", "level": 59, "moves": []}]},
+      {"name": "Swimmer Franklin", "pokemons": [{"name": "Whiscash", "level": 59, "moves": []}]},
+      {"name": "Swimmer Linda", "pokemons": [{"name": "Seaking", "level": 59, "moves": []}]},
+      {"name": "Swimmer Sheryl", "pokemons": [{"name": "Slowking", "level": 59, "moves": []}]},
+      {"name": "Bird Keeper Beck", "pokemons": [{"name": "Dodrio", "level": 57, "moves": []}, {"name": "Altaria", "level": 57, "moves": []}, {"name": "Honchkrow", "level": 57, "moves": []}]},
+      {"name": "Ace Trainer Warren", "pokemons": [{"name": "Scizor", "level": 58, "moves": []}, {"name": "Chandelure", "level": 58, "moves": []}, {"name": "Dusknoir", "level": 58, "moves": []}, {"name": "Alakazam", "level": 58, "moves": []}]},
+      {"name": "Backpacker Grayson", "pokemons": [{"name": "Ditto", "level": 59, "moves": []}]},
+      {"name": "Fisherman River", "pokemons": [{"name": "Kingdra", "level": 59, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Route 134": {
+    "wild": {
+      "dexnav": ["Kingdra"],
+      "surfing": ["Phione"],
+      "old_rod": ["Horsea", "Dratini"],
+      "good_rod": ["Horsea", "Dratini"],
+      "super_rod": ["Seadra", "Dragonair"]
+    },
+    "trainers": [
+      {"name": "Bird Keeper Alex", "pokemons": [{"name": "Staraptor", "level": 57, "moves": []}, {"name": "Unfezant", "level": 57, "moves": []}, {"name": "Pidgeot", "level": 57, "moves": []}]},
+      {"name": "Swimmer Jack", "pokemons": [{"name": "Sharpedo", "level": 59, "moves": []}]},
+      {"name": "Swimmer Laurel", "pokemons": [{"name": "Vaporeon", "level": 59, "moves": []}]},
+      {"name": "Dragon Tamer Aaron", "pokemons": [{"name": "Shelgon", "level": 59, "moves": []}, {"name": "Zweilous", "level": 59, "moves": []}, {"name": "Dragonair", "level": 59, "moves": []}]},
+      {"name": "Ace Trainer Elaine", "pokemons": [{"name": "Espeon", "level": 58, "moves": []}, {"name": "Togekiss", "level": 58, "moves": []}, {"name": "Milotic", "level": 58, "moves": []}, {"name": "Serperior", "level": 58, "moves": []}]},
+      {"name": "Black Belt Hitoshi", "pokemons": [{"name": "Hitmonlee", "level": 58, "moves": []}, {"name": "Sawk", "level": 58, "moves": []}, {"name": "Breloom", "level": 58, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Underwater 107": {
+    "wild": {
+      "grass": ["Tentacruel", "Seadra", "Starmie", "Lanturn", "Corsola", "Huntail", "Gorebyss", "Relicanth", "Jellicent", "Dragalge"]
+    },
+    "trainers": [
+      {"name": "Scuba Diver Keaton", "pokemons": [{"name": "Wailord", "level": 60, "moves": []}]},
+      {"name": "Free Diver Hollie", "pokemons": [{"name": "Lanturn", "level": 60, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Underwater 124": {
+    "wild": {
+      "grass": ["Tentacruel", "Seadra", "Starmie", "Lanturn", "Corsola", "Huntail", "Gorebyss", "Relicanth", "Jellicent", "Dragalge"]
+    },
+    "trainers": [
+      {"name": "Scuba Diver Kylan", "pokemons": [{"name": "Kingdra", "level": 60, "moves": []}]},
+      {"name": "Free Diver Rischel", "pokemons": [{"name": "Seaking", "level": 60, "moves": []}]},
+      {"name": "Scuba Diver Dmitry", "pokemons": [{"name": "Starmie", "level": 60, "moves": []}]},
+      {"name": "Free Diver Arzu", "pokemons": [{"name": "Huntail", "level": 59, "moves": []}, {"name": "Gorebyss", "level": 59, "moves": []}]}
+    ],
+    "rematches": [
+      {"name": "Scuba Diver Kylan (8)", "pokemons": [{"name": "Kingdra", "level": 64, "moves": []}, {"name": "Kingler", "level": 64, "moves": []}, {"name": "Clawitzer", "level": 64, "moves": []}, {"name": "Relicanth", "level": 64, "moves": []}]},
+      {"name": "Scuba Diver Kylan (C)", "pokemons": [{"name": "Kingdra", "level": 75, "moves": []}, {"name": "Kingler", "level": 75, "moves": []}, {"name": "Clawitzer", "level": 75, "moves": []}, {"name": "Relicanth", "level": 75, "moves": []}]},
+      {"name": "Free Diver Arzu (8)", "pokemons": [{"name": "Huntail", "level": 64, "moves": []}, {"name": "Gorebyss", "level": 64, "moves": []}, {"name": "Milotic", "level": 64, "moves": []}, {"name": "Gyarados", "level": 64, "moves": []}]},
+      {"name": "Free Diver Arzu (C)", "pokemons": [{"name": "Huntail", "level": 75, "moves": []}, {"name": "Gorebyss", "level": 75, "moves": []}, {"name": "Milotic", "level": 75, "moves": []}, {"name": "Gyarados", "level": 75, "moves": []}]}
+    ]
+  },
+"Underwater 126": {
+    "wild": {
+      "grass": ["Tentacruel", "Seadra", "Starmie", "Lanturn", "Corsola", "Huntail", "Gorebyss", "Relicanth", "Jellicent", "Dragalge"]
+    },
+    "trainers": [
+      {"name": "Scuba Diver Tristan", "pokemons": [{"name": "Clawitzer", "level": 60, "moves": []}]},
+      {"name": "Scuba Diver Yukata", "pokemons": [{"name": "Pelipper", "level": 60, "moves": []}]},
+      {"name": "Free Diver Jillian", "pokemons": [{"name": "Azumarill", "level": 60, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Underwater 127": {
+    "wild": {},
+    "trainers": [
+      {"name": "Scuba Diver Javier", "pokemons": [{"name": "Relicanth", "level": 60, "moves": []}]},
+      {"name": "Free Diver Kailyn", "pokemons": [{"name": "Alomomola", "level": 60, "moves": []}]},
+      {"name": "Free Diver Aileen", "pokemons": [{"name": "Walrein", "level": 60, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Underwater 128": {
+    "wild": {
+      "grass": ["Tentacruel", "Seadra", "Starmie", "Lanturn", "Corsola", "Huntail", "Gorebyss", "Relicanth", "Jellicent", "Dragalge"]
+    },
+    "trainers": [
+      {"name": "Free Diver Mayu", "pokemons": [{"name": "Luvdisc", "level": 60, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Underwater 129": {
+    "wild": {
+      "grass": ["Tentacruel", "Seadra", "Starmie", "Lanturn", "Corsola", "Huntail", "Gorebyss", "Relicanth", "Jellicent", "Dragalge"]
+    },
+    "trainers": [
+      {"name": "Scuba Diver Colten", "pokemons": [{"name": "Golduck", "level": 60, "moves": []}]},
+      {"name": "Scuba Diver Jason", "pokemons": [{"name": "Gyarados", "level": 60, "moves": []}]},
+      {"name": "Free Diver Coral", "pokemons": [{"name": "Tentacruel", "level": 60, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Underwater 130": {
+    "wild": {
+      "grass": ["Tentacruel", "Seadra", "Starmie", "Lanturn", "Corsola", "Huntail", "Gorebyss", "Relicanth", "Jellicent", "Dragalge"]
+    },
+    "trainers": [
+      {"name": "Scuba Diver Silas", "pokemons": [{"name": "Whiscash", "level": 60, "moves": []}]},
+      {"name": "Free Diver Cordura", "pokemons": [{"name": "Corsola", "level": 60, "moves": []}]}
+    ],
+    "rematches": []
+  },
+"Seafloor Cavern": {
+    "wild": {
+      "out": {
+        "surfing": ["Golbat"],
+        "old_rod": ["Relicanth"],
+        "good_rod": ["Relicanth"],
+        "super_rod": ["Relicanth"]
+      },
+      "front rooms": {
+        "walking": ["Omanyte", "Kabuto", "Anorith", "Lileep", "Cranidos", "Shieldon", "Tirtouga", "Archen", "Tyrunt", "Amaura"],
+        "rock_smash": ["Shuckle"],
+        "horde": ["Zubat"]
+      },
+      "water rooms": {
+        "walking": ["Golbat", "Aerodactyl", "Swoobat", "Crustle", "Eelektrik", "Noivern"],
+        "horde": ["Golbat"],
+        "surfing": ["Tentacruel", "Jellicent"],
+        "old_rod": ["Relicanth"],
+        "good_rod": ["Relicanth"],
+        "super_rod": ["Relicanth"]
+      },
+      "back rooms": {
+        "walking": ["Omastar", "Kabutops", "Armaldo", "Cradily", "Rampardos", "Bastiodon", "Carracosta", "Archeops", "Tyrantrum", "Aurorus"],
+        "rock_smash": ["Shuckle"],
+        "horde": ["Golbat"]
+      }
+    },
+    "trainers": {
+      "front rooms": [
+        {"name": "Team Magma Grunt", "pokemons": [{"name": "Golem", "level": 60, "moves": []}, {"name": "Magcargo", "level": 60, "moves": []}]},
+        {"name": "Team Magma Grunt", "pokemons": [{"name": "Steelix", "level": 60, "moves": []}, {"name": "Weezing", "level": 60, "moves": []}]},
+        {"name": "Team Magma Grunt", "pokemons": [{"name": "Pyroar", "level": 60, "moves": []}, {"name": "Zangoose", "level": 60, "moves": []}]},
+        {"name": "Team Magma Grunt", "pokemons": [{"name": "Nidoking", "level": 60, "moves": []}, {"name": "Darmanitan", "level": 60, "moves": []}]},
+        {"name": "Team Magma Grunt", "pokemons": [{"name": "Gigalith", "level": 60, "moves": []}, {"name": "Rapidash", "level": 60, "moves": []}]},
+        {"name": "Team Aqua Grunt", "pokemons": [{"name": "Vileplume", "level": 60, "moves": []}, {"name": "Lumineon", "level": 60, "moves": []}]},
+        {"name": "Team Aqua Grunt", "pokemons": [{"name": "Tangrowth", "level": 60, "moves": []}, {"name": "Muk", "level": 60, "moves": []}]},
+        {"name": "Team Aqua Grunt", "pokemons": [{"name": "Barbaracle", "level": 60, "moves": []}, {"name": "Seviper", "level": 60, "moves": []}]},
+        {"name": "Team Aqua Grunt", "pokemons": [{"name": "Nidoqueen", "level": 60, "moves": []}, {"name": "Jellicent", "level": 60, "moves": []}]},
+        {"name": "Team Aqua Grunt", "pokemons": [{"name": "Roserade", "level": 60, "moves": []}, {"name": "Golduck", "level": 60, "moves": []}]}
+      ],
+      "back rooms": [
+        {"name": "Magma Leader Maxie", "pokemons": [{"name": "Crobat", "level": 63, "moves": []}, {"name": "Houndoom", "level": 63, "moves": []}, {"name": "Claydol", "level": 63, "moves": []}, {"name": "Tyranitar", "level": 63, "moves": []}, {"name": "Chandelure", "level": 63, "moves": []}, {"name": "Camerupt", "level": 65, "moves": []}]},
+        {"name": "Aqua Leader Archie", "pokemons": [{"name": "Crobat", "level": 63, "moves": []}, {"name": "Tentacruel", "level": 63, "moves": []}, {"name": "Walrein", "level": 63, "moves": []}, {"name": "Dragonite", "level": 63, "moves": []}, {"name": "Eelektross", "level": 63, "moves": []}, {"name": "Sharpedo", "level": 65, "moves": []}]}
+      ]},
+    "rematches": []
+  },
+"Sootopolis City": {
+    "wild": {
+      "surfing": ["Magikarp", "Gyarados"],
+      "old_rod": ["Magikarp", "Gyarados"],
+      "good_rod": ["Magikarp", "Gyarados"],
+      "super_rod": ["Magikarp", "Gyarados"]
+    },
+    "trainers": {
+      "gym": [
+        {"name": "Lass Andrea", "pokemons": [{"name": "Simipour", "level": 62, "moves": []}, {"name": "Vaporeon", "level": 62, "moves": []}, {"name": "Wailord", "level": 62, "moves": []}]},
+        {"name": "Beauty Tiffany", "pokemons": [{"name": "Mantine", "level": 62, "moves": []}, {"name": "Seaking", "level": 62, "moves": []}, {"name": "Cloyster", "level": 62, "moves": []}]},
+        {"name": "Beauty Bridget", "pokemons": [{"name": "Slowbro", "level": 62, "moves": []}, {"name": "Tentacruel", "level": 62, "moves": []}, {"name": "Quagsire", "level": 62, "moves": []}]},
+        {"name": "Beauty Connie", "pokemons": [{"name": "Corsola", "level": 62, "moves": []}, {"name": "Octillery", "level": 62, "moves": []}, {"name": "Whiscash", "level": 62, "moves": []}]},
+        {"name": "Beauty Olivia", "pokemons": [{"name": "Floatzel", "level": 62, "moves": []}, {"name": "Swanna", "level": 62, "moves": []}, {"name": "Barbaracle", "level": 62, "moves": []}]},
+        {"name": "Lady Brianna", "pokemons": [{"name": "Seismitoad", "level": 62, "moves": []}, {"name": "Lumineon", "level": 62, "moves": []}, {"name": "Pelipper", "level": 62, "moves": []}]},
+        {"name": "Poké Fan Marissa", "pokemons": [{"name": "Lanturn", "level": 62, "moves": []}, {"name": "Samurott", "level": 62, "moves": []}, {"name": "Azumarill", "level": 62, "moves": []}]},
+        {"name": "Lass Crissy", "pokemons": [{"name": "Poliwrath", "level": 62, "moves": []}, {"name": "Feraligatr", "level": 62, "moves": []}, {"name": "Sharpedo", "level": 62, "moves": []}]},
+        {"name": "Leader Wallace", "pokemons": [{"name": "Politoed", "level": 65, "moves": []}, {"name": "Ludicolo", "level": 65, "moves": []}, {"name": "Kingdra", "level": 65, "moves": []}, {"name": "Starmie", "level": 65, "moves": []}, {"name": "Milotic", "level": 65, "moves": []}, {"name": "Swampert", "level": 67, "moves": []}]}
+      ]
+    },
+    "rematches": []
+  },
+"Cave of Origin": {
+    "wild": {
+      "1F": {
+        "walking": ["Golbat", "Aerodactyl", "Sableye", "Mawile", "Lairon", "Metang", "Swoobat", "Heatmor", "Durant", "Noivern"],
+        "horde": ["Golbat"]
+      },
+      "other": {
+        "walking": ["Unown"],
+        "horde": ["Unown"]
+      }
+    },
+    "trainers": {},
+    "rematches": []
+  },
+"Soaring in the Sky": {
+    "wild": {
+      "birds": ["Pidgeot", "Dragonite", "Staraptor", "Honchkrow", "Togekiss", "Unfezant", "Talonflame"]
+    },
+    "note": "You will only see these Pokémon if you were able to use the .cro file!",
+    "hint": "Any wild Pokémon found here will have their hidden ability as well as at least 3 perfect IVs."
+  },
+"Meteor Falls": {
+    "wild": {
+      "1F-2": {
+        "walking": ["Clefairy", "Golbat", "Pupitar", "Lunatone", "Solrock", "Shelgon", "Metang", "Ferrothorn", "Druddigon*", "Zweilous", "Carbink*"],
+        "dexnav": ["Clefable"],
+        "horde": ["Clefairy"],
+        "surfing": ["Golbat", "Solrock"],
+        "old_rod": ["Dratini"],
+        "good_rod": ["Dratini"],
+        "super_rod": ["Dragonair"]
+      },
+      "B1F": {
+        "walking": ["Clefairy", "Golbat", "Pupitar", "Lunatone", "Solrock", "Shelgon", "Metang", "Ferrothorn", "Druddigon*", "Zweilous", "Carbink*"],
+        "dexnav": ["Crobat"],
+        "horde": ["Clefairy"],
+        "surfing": ["Golbat", "Lunatone"],
+        "old_rod": ["Dratini"],
+        "good_rod": ["Dratini"],
+        "super_rod": ["Dragonair"]
+      },
+      "B1F-2": {
+        "walking": ["Clefairy", "Golbat", "Pupitar", "Lunatone", "Solrock", "Shelgon", "Metang", "Ferrothorn", "Druddigon*", "Zweilous", "Carbink*"],
+        "dexnav": ["Salamence"],
+        "horde": ["Bagon"],
+        "surfing": ["Golbat"],
+        "old_rod": ["Dratini"],
+        "good_rod": ["Dratini"],
+        "super_rod": ["Dragonair"]
+      }
+    },
+    "trainers": {
+      "1F-2": [
+        {"name": "Dragon Tamer Nicolas", "pokemons": [{"name": "Gyarados", "level": 65, "moves": []}, {"name": "Sceptile", "level": 65, "moves": []}, {"name": "Haxorus", "level": 65, "moves": []}, {"name": "Tyrantrum", "level": 65, "moves": []}, {"name": "Aerodactyl", "level": 65, "moves": []}]},
+        {"name": "Old Couple John & Jay", "pokemons": [{"name": "Poliwrath", "level": 65, "moves": []}, {"name": "Hitmontop", "level": 65, "moves": []}, {"name": "Hariyama", "level": 65, "moves": []}, {"name": "Conkeldurr", "level": 65, "moves": []}, {"name": "Lucario", "level": 65, "moves": []}]}
+      ],
+	   "B1F": [
+        {"name": "Battle Girl Tess", "pokemons": [{"name": "Hitmonlee", "level": 65, "moves": []}, {"name": "Primeape", "level": 65, "moves": []}, {"name": "Breloom", "level": 65, "moves": []}, {"name": "Toxicroak", "level": 65, "moves": []}, {"name": "Heracross", "level": 65, "moves": []}]},
+        {"name": "Dragon Tamer Dray", "pokemons": [{"name": "Altaria", "level": 65, "moves": []}, {"name": "Serperior", "level": 65, "moves": []}, {"name": "Milotic", "level": 65, "moves": []}, {"name": "Goodra", "level": 65, "moves": []}, {"name": "Ampharos", "level": 65, "moves": []}]}
+      ]
+    },
+    "rematches": {
+      "1F-2F": [
+        {"name": "Dragon Tamer Nicolas (C)", "pokemons": [{"name": "Gyarados", "level": 75, "moves": []}, {"name": "Sceptile", "level": 75, "moves": []}, {"name": "Haxorus", "level": 75, "moves": []}, {"name": "Tyrantrum", "level": 75, "moves": []}, {"name": "Aerodactyl", "level": 75, "moves": []}]},
+        {"name": "Old Couple John & Jay (C)", "pokemons": [{"name": "Poliwrath", "level": 75, "moves": []}, {"name": "Hitmontop", "level": 75, "moves": []}, {"name": "Hariyama", "level": 75, "moves": []}, {"name": "Conkeldurr", "level": 75, "moves": []}, {"name": "Lucario", "level": 75, "moves": []}]}
+      ]
+    }
+  },
+"Victory Road": {
+    "wild": {
+      "1F": {
+        "walking": ["Golbat", "Graveler", "Marowak", "Rhydon", "Steelix", "Ursaring", "Donphan", "Lairon", "Boldore", "Swoobat"],
+        "horde": ["Loudred"],
+        "surfing": ["Floatzel", "Azumarill"],
+        "old_rod": ["Poliwag", "Basculin"],
+        "good_rod": ["Poliwhirl", "Basculin"],
+        "super_rod": ["Poliwhirl", "Basculin"]
+      },
+      "B1F": {
+        "walking": ["Kadabra", "Machoke", "Haunter", "Loudred", "Hariyama", "Sableye*", "Mawile*", "Medicham", "Gabite", "Gurdurr", "Galvantula"],
+        "horde": ["Galvantula"],
+        "surfing": ["Floatzel", "Azumarill"],
+        "old_rod": ["Poliwag", "Basculin"],
+        "good_rod": ["Poliwhirl", "Basculin"],
+        "super_rod": ["Poliwhirl", "Basculin"]
+      },
+      "2F": {
+        "surfing": ["Floatzel", "Azumarill"],
+        "old_rod": ["Poliwag", "Basculin"],
+        "good_rod": ["Poliwhirl", "Basculin"],
+        "super_rod": ["Poliwhirl", "Basculin"]
+      }
+    },
+    "trainers": {
+      "1F": [
+        {"name": "Ace Trainer Albert", "pokemons": [{"name": "Golem", "level": 65, "moves": []}, {"name": "Venusaur", "level": 65, "moves": []}, {"name": "Avalugg", "level": 65, "moves": []}, {"name": "Jolteon", "level": 65, "moves": []}, {"name": "Pidgeot", "level": 65, "moves": []}]},
+        {"name": "Ace Trainer Hope", "pokemons": [{"name": "Glaceon", "level": 65, "moves": []}, {"name": "Gliscor", "level": 65, "moves": []}, {"name": "Volcarona", "level": 65, "moves": []}, {"name": "Exeggutor", "level": 65, "moves": []}, {"name": "Audino", "level": 65, "moves": []}]},
+        {"name": "Ace Trainer Edgar", "pokemons": [{"name": "Gogoat", "level": 65, "moves": []}, {"name": "Lapras", "level": 65, "moves": []}, {"name": "Porygon-Z", "level": 65, "moves": []}, {"name": "Shedinja", "level": 65, "moves": []}, {"name": "Mawile", "level": 65, "moves": []}]},
+        {"name": "Street Thug Regan", "pokemons": [{"name": "Drapion", "level": 65, "moves": []}, {"name": "Weavile", "level": 65, "moves": []}, {"name": "Krookodile", "level": 65, "moves": []}, {"name": "Toxicroak", "level": 65, "moves": []}, {"name": "Beedrill", "level": 65, "moves": []}]},
+        {"name": "Brains & Brawn Aden & Finn", "pokemons": [{"name": "Musharna", "level": 65, "moves": []}, {"name": "Primeape", "level": 65, "moves": []}, {"name": "Gardevoir", "level": 65, "moves": []}, {"name": "Pangoro", "level": 65, "moves": []}, {"name": "Medicham", "level": 65, "moves": []}]}
+      ],
+      "B1F": [
+        {"name": "Expert Bryn", "pokemons": [{"name": "Machamp", "level": 65, "moves": []}, {"name": "Throh", "level": 65, "moves": []}, {"name": "Sawk", "level": 65, "moves": []}, {"name": "Mienshao", "level": 65, "moves": []}, {"name": "Lopunny", "level": 65, "moves": []}]},
+        {"name": "Ace Duo Jude & Rory", "pokemons": [{"name": "Rotom", "level": 65, "moves": []}, {"name": "Mamoswine", "level": 65, "moves": []}, {"name": "Electivire", "level": 65, "moves": []}, {"name": "Magmortar", "level": 65, "moves": []}, {"name": "Scizor", "level": 65, "moves": []}]},
+        {"name": "Expert Theodore", "pokemons": [{"name": "Chesnaught", "level": 65, "moves": []}, {"name": "Hitmonlee", "level": 65, "moves": []}, {"name": "Hitmonchan", "level": 65, "moves": []}, {"name": "Emboar", "level": 65, "moves": []}, {"name": "Blaziken", "level": 65, "moves": []}]},
+        {"name": "Ace Trainer Vito", "pokemons": [{"name": "Electrode", "level": 65, "moves": []}, {"name": "Swellow", "level": 65, "moves": []}, {"name": "Shiftry", "level": 65, "moves": []}, {"name": "Darmanitan", "level": 65, "moves": []}, {"name": "Alakazam", "level": 65, "moves": []}]},
+        {"name": "Dragon Tamer Egon", "pokemons": [{"name": "Noivern", "level": 65, "moves": []}, {"name": "Druddigon", "level": 65, "moves": []}, {"name": "Steelix", "level": 65, "moves": []}, {"name": "Arbok", "level": 65, "moves": []}, {"name": "Charizard", "level": 65, "moves": []}]}
+      ],
+      "2F": [
+        {"name": "PKMN Trainer Wally", "pokemons": [{"name": "Roserade", "level": 70, "moves": []}, {"name": "Talonflame", "level": 70, "moves": []}, {"name": "Azumarill", "level": 70, "moves": []}, {"name": "Magnezone", "level": 70, "moves": []}, {"name": "Garchomp", "level": 70, "moves": []}, {"name": "Gallade", "level": 72, "moves": []}]}
+      ]
+    },
+    "rematches": {
+      "B1F": [
+        {"name": "Ace Duo Jude & Rory (C)", "pokemons": [{"name": "Rotom", "level": 75, "moves": []}, {"name": "Mamoswine", "level": 75, "moves": []}, {"name": "Electivire", "level": 75, "moves": []}, {"name": "Magmortar", "level": 75, "moves": []}, {"name": "Scizor", "level": 75, "moves": []}]}
+      ]
+    }
+  },
+"Pokémon League": {
+    "trainers": [
+		{ "name": "Elite Four Sidney", "pokemons": [ {"name": "Weavile", "level": 70, "moves": []}, {"name": "Scrafty", "level": 70, "moves": []}, {"name": "Bisharp", "level": 70, "moves": []}, {"name": "Tyranitar", "level": 70, "moves": []}, {"name": "Greninja", "level": 70, "moves": []}, {"name": "Absol", "level": 72, "moves": []} ] }, 
+		{ "name": "Elite Four Phoebe", "pokemons": [ {"name": "Mismagius", "level": 71, "moves": []}, {"name": "Gengar", "level": 71, "moves": []}, {"name": "Aegislash", "level": 71, "moves": []}, {"name": "Chandelure", "level": 71, "moves": []}, {"name": "Dusknoir", "level": 71, "moves": []}, {"name": "Sableye", "level": 73, "moves": []} ] }, 
+		{ "name": "Elite Four Glacia", "pokemons": [ {"name": "Aurorus", "level": 72, "moves": []}, {"name": "Froslass", "level": 72, "moves": []}, {"name": "Jynx", "level": 72, "moves": []}, {"name": "Mamoswine", "level": 72, "moves": []}, {"name": "Walrein", "level": 72, "moves": []}, {"name": "Glalie", "level": 74, "moves": []} ] }, 
+		{ "name": "Elite Four Drake", "pokemons": [ {"name": "Hydreigon", "level": 73, "moves": []}, {"name": "Flygon", "level": 73, "moves": []}, {"name": "Haxorus", "level": 73, "moves": []}, {"name": "Kingdra", "level": 73, "moves": []}, {"name": "Dragalge", "level": 73, "moves": []}, {"name": "Salamence", "level": 75, "moves": []} ] }, 
+		{ "name": "Champion Steven", "pokemons": [ {"name": "Skarmory", "level": 77, "moves": []}, {"name": "Aggron", "level": 77, "moves": []}, {"name": "Claydol", "level": 77, "moves": []}, {"name": "Aerodactyl", "level": 77, "moves": []}, {"name": "Diancie", "level": 77, "moves": []}, {"name": "Metagross", "level": 79, "moves": []} ] } ], "rematches": []
+  },
+"Credits": {
+	"trainers": [
+		{"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 75, "moves": []}, {"name": "Raichu", "level": 75, "moves": []}, {"name": "Sylveon", "level": 75, "moves": []}, {"name": "Rapidash", "level": 75, "moves": []}, {"name": "Wailord", "level": 75, "moves": []}, {"name": "Sceptile", "level": 77, "moves": []}]}, 
+		{"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 75, "moves": []}, {"name": "Raichu", "level": 75, "moves": []}, {"name": "Sylveon", "level": 75, "moves": []}, {"name": "Wailord", "level": 75, "moves": []}, {"name": "Breloom", "level": 75, "moves": []}, {"name": "Blaziken", "level": 77, "moves": []}]}, 
+		{"name": "PKMN Trainer Brendan", "pokemons": [{"name": "Swellow", "level": 75, "moves": []}, {"name": "Raichu", "level": 75, "moves": []}, {"name": "Sylveon", "level": 75, "moves": []}, {"name": "Breloom", "level": 75, "moves": []}, {"name": "Rapidash", "level": 75, "moves": []}, {"name": "Swampert", "level": 77, "moves": []}]}, 
+		{"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 75, "moves": []}, {"name": "Raichu", "level": 75, "moves": []}, {"name": "Sylveon", "level": 75, "moves": []}, {"name": "Rapidash", "level": 75, "moves": []}, {"name": "Wailord", "level": 75, "moves": []}, {"name": "Sceptile", "level": 77, "moves": []}]}, 
+		{"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 75, "moves": []}, {"name": "Raichu", "level": 75, "moves": []}, {"name": "Sylveon", "level": 75, "moves": []}, {"name": "Wailord", "level": 75, "moves": []}, {"name": "Breloom", "level": 75, "moves": []}, {"name": "Blaziken", "level": 77, "moves": []}]}, 
+		{"name": "PKMN Trainer May", "pokemons": [{"name": "Swellow", "level": 75, "moves": []}, {"name": "Raichu", "level": 75, "moves": []}, {"name": "Sylveon", "level": 75, "moves": []}, {"name": "Breloom", "level": 75, "moves": []}, {"name": "Rapidash", "level": 75, "moves": []}, {"name": "Swampert", "level": 77, "moves": []}]}], 
+	"rematches": []},
+"Petalburg City - Postgame": {
+    "trainers": [
+      {
+        "name": "Magma Admin Courtney",
+        "pokemons": [
+          {"name": "Rapidash", "level": 75, "moves": []},
+          {"name": "Pyroar", "level": 75, "moves": []},
+          {"name": "Rhyperior", "level": 75, "moves": []},
+          {"name": "Camerupt", "level": 75, "moves": []},
+          {"name": "Nidoking", "level": 75, "moves": []},
+          {"name": "Charizard", "level": 77, "moves": []}
+        ]
+      },
+      {
+        "name": "Aqua Admin Matt",
+        "pokemons": [
+          {"name": "Golduck", "level": 75, "moves": []},
+          {"name": "Barbaracle", "level": 75, "moves": []},
+          {"name": "Ferrothorn", "level": 75, "moves": []},
+          {"name": "Sharpedo", "level": 75, "moves": []},
+          {"name": "Nidoqueen", "level": 75, "moves": []},
+          {"name": "Blastoise", "level": 77, "moves": []}
+        ]
+      }
+    ]
+  },
+"Granite Cave 1F-2 - Postgame": {
+    "trainers": [
+      {
+        "name": "Lorekeeper Zinnia",
+        "pokemons": [
+          {"name": "Altaria", "level": 76, "moves": []},
+          {"name": "Tyrantrum", "level": 76, "moves": []},
+          {"name": "Noivern", "level": 76, "moves": []},
+          {"name": "Salamence", "level": 78, "moves": []}
+        ]
+      }
+    ]
+  },
+"Rustboro City - Postgame": {
+    "trainers": [
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Chandelure", "level": 75, "moves": []}, {"name": "Klinklang", "level": 75, "moves": []}, {"name": "Magmortar", "level": 75, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Steelix", "level": 75, "moves": []}, {"name": "Typhlosion", "level": 75, "moves": []}, {"name": "Absol", "level": 75, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Houndoom", "level": 75, "moves": []}, {"name": "Mightyena", "level": 75, "moves": []}, {"name": "Swoobat", "level": 75, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Eelektross", "level": 75, "moves": []}, {"name": "Sunflora", "level": 75, "moves": []}, {"name": "Starmie", "level": 75, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Tangrowth", "level": 75, "moves": []}, {"name": "Empoleon", "level": 75, "moves": []}, {"name": "Absol", "level": 75, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Tentacruel", "level": 75, "moves": []}, {"name": "Liepard", "level": 75, "moves": []}, {"name": "Swoobat", "level": 75, "moves": []}]}
+    ]
+  },
+"Mossdeep City - Postgame": {
+    "trainers": [
+      {"name": "Team Magma Grunts", "pokemons": [{"name": "Flareon", "level": 59, "moves": []}, {"name": "Flareon", "level": 59, "moves": []}, {"name": "Flareon", "level": 59, "moves": []}, {"name": "Flareon", "level": 59, "moves": []}, {"name": "Flareon", "level": 59, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Ninetales", "level": 75, "moves": []}, {"name": "Weezing", "level": 75, "moves": []}, {"name": "Emboar", "level": 75, "moves": []}]},
+      {"name": "Magma Admin Courtney", "pokemons": [{"name": "Charizard", "level": 79, "moves": []}, {"name": "Pyroar", "level": 77, "moves": []}, {"name": "Nidoking", "level": 77, "moves": []}]},
+      {"name": "Team Aqua Grunts", "pokemons": [{"name": "Vaporeon", "level": 59, "moves": []}, {"name": "Vaporeon", "level": 59, "moves": []}, {"name": "Vaporeon", "level": 59, "moves": []}, {"name": "Vaporeon", "level": 59, "moves": []}, {"name": "Vaporeon", "level": 59, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Politoed", "level": 75, "moves": []}, {"name": "Muk", "level": 75, "moves": []}, {"name": "Feraligatr", "level": 75, "moves": []}]},
+      {"name": "Aqua Admin Matt", "pokemons": [{"name": "Blastoise", "level": 79, "moves": []}, {"name": "Barbaracle", "level": 77, "moves": []}, {"name": "Nidoqueen", "level": 77, "moves": []}]}
+    ]
+  },
+"Magma Hideout - Postgame": {
+    "trainers": [
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Mightyena", "level": 75, "moves": []}, {"name": "Armaldo", "level": 75, "moves": []}, {"name": "Magcargo", "level": 75, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Ariados", "level": 75, "moves": []}, {"name": "Camerupt", "level": 75, "moves": []}, {"name": "Exploud", "level": 75, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Donphan", "level": 75, "moves": []}, {"name": "Zangoose", "level": 75, "moves": []}, {"name": "Simisear", "level": 75, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Magnezone", "level": 75, "moves": []}, {"name": "Torkoal", "level": 75, "moves": []}, {"name": "Sandslash", "level": 75, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Arcanine", "level": 75, "moves": []}, {"name": "Crobat", "level": 75, "moves": []}, {"name": "Weezing", "level": 75, "moves": []}]},
+      {"name": "Team Magma Grunt", "pokemons": [{"name": "Darmanitan", "level": 75, "moves": []}, {"name": "Snorlax", "level": 75, "moves": []}, {"name": "Rapidash", "level": 75, "moves": []}]}
+    ]
+  },
+"Aqua Hideout - Postgame": {
+    "trainers": [
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Liepard", "level": 75, "moves": []}, {"name": "Cradily", "level": 75, "moves": []}, {"name": "Lumineon", "level": 75, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Ledian", "level": 75, "moves": []}, {"name": "Sharpedo", "level": 75, "moves": []}, {"name": "Exploud", "level": 75, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Ursaring", "level": 75, "moves": []}, {"name": "Seviper", "level": 75, "moves": []}, {"name": "Simipour", "level": 75, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Jumpluff", "level": 75, "moves": []}, {"name": "Alomomola", "level": 75, "moves": []}, {"name": "Octillery", "level": 75, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Cloyster", "level": 75, "moves": []}, {"name": "Crobat", "level": 75, "moves": []}, {"name": "Muk", "level": 75, "moves": []}]},
+      {"name": "Team Aqua Grunt", "pokemons": [{"name": "Jellicent", "level": 75, "moves": []}, {"name": "Lapras", "level": 75, "moves": []}, {"name": "Golduck", "level": 75, "moves": []}]}
+    ]
+  },
+"Route 131 - Postgame": {
+    "trainers": [
+      {
+        "name": "Sootopolitan Wallace",
+        "pokemons": [
+          {"name": "Politoed", "level": 77, "moves": []},
+          {"name": "Ludicolo", "level": 77, "moves": []},
+          {"name": "Kingdra", "level": 77, "moves": []},
+          {"name": "Gyarados", "level": 77, "moves": []},
+          {"name": "Milotic", "level": 79, "moves": []},
+          {"name": "Swampert", "level": 79, "moves": []}
+        ]
+      }
+    ]
+  },
+"Sky Pillar - Postgame": {
+    "wild": {
+      "Walking": ["Raticate", "Ariados", "Altaria", "Claydol", "Spiritomb", "Sigilyph", "Mienshao", "Druddigon", "Golurk", "Noivern"],
+      "Horde": ["Altaria"]
+    },
+    "trainers": [
+      {
+        "name": "Lorekeeper Zinnia",
+        "pokemons": [
+          {"name": "Hydreigon", "level": 79, "moves": []},
+          {"name": "Goodra", "level": 79, "moves": []},
+          {"name": "Tyranitar", "level": 79, "moves": []},
+          {"name": "Dragonite", "level": 79, "moves": []},
+          {"name": "Garchomp", "level": 79, "moves": []},
+          {"name": "Salamence", "level": 81, "moves": []}
+        ]
+      }
+    ]
+  },
+"S.S Tidal - Postgame": {
+    "trainers": [
+      {"name": "Gentleman Tucker", "pokemons": [{"name": "Rapidash", "level": 75, "moves": []}, {"name": "Girafarig", "level": 75, "moves": []}, {"name": "Sawsbuck", "level": 75, "moves": []}, {"name": "Zebstrika", "level": 75, "moves": []}]},
+      {"name": "Rich Boy Garret", "pokemons": [{"name": "Furfrou", "level": 75, "moves": []}, {"name": "Furfrou", "level": 75, "moves": []}, {"name": "Furfrou", "level": 75, "moves": []}, {"name": "Furfrou", "level": 75, "moves": []}]},
+      {"name": "Young Couple Lea & Jed", "pokemons": [{"name": "Miltank", "level": 75, "moves": []}, {"name": "Tauros", "level": 75, "moves": []}, {"name": "Nidoqueen", "level": 75, "moves": []}, {"name": "Nidoking", "level": 75, "moves": []}]},
+      {"name": "Poké Fan Colton", "pokemons": [{"name": "Delcatty", "level": 75, "moves": []}, {"name": "Meowstic", "level": 75, "moves": []}, {"name": "Espeon", "level": 75, "moves": []}, {"name": "Persian", "level": 75, "moves": []}]},
+      {"name": "Lady Anette", "pokemons": [{"name": "Whimsicott", "level": 75, "moves": []}, {"name": "Lilligant", "level": 75, "moves": []}, {"name": "Maractus", "level": 75, "moves": []}, {"name": "Leavanny", "level": 75, "moves": []}]},
+      {"name": "Gentleman Thomas", "pokemons": [{"name": "Braviary", "level": 75, "moves": []}, {"name": "Sigilyph", "level": 75, "moves": []}, {"name": "Unfezant", "level": 75, "moves": []}, {"name": "Swanna", "level": 75, "moves": []}]},
+      {"name": "Sailor Philip", "pokemons": [{"name": "Qwilfish", "level": 75, "moves": []}, {"name": "Machamp", "level": 75, "moves": []}, {"name": "Blastoise", "level": 75, "moves": []}, {"name": "Tentacruel", "level": 75, "moves": []}]},
+      {"name": "Sailor Leonard", "pokemons": [{"name": "Floatzel", "level": 75, "moves": []}, {"name": "Pelipper", "level": 75, "moves": []}, {"name": "Clawitzer", "level": 75, "moves": []}, {"name": "Pangoro", "level": 75, "moves": []}]}
+    ]
+  },
+"Battle Resort ": {
+    "wild": {
+      "surfing": ["Pelipper", "Tentacruel", "Mantine*", "Jellicent"],
+      "old_rod": ["Luvdisc"],
+      "good_rod": ["Luvdisc"],
+      "super_rod": ["Luvdisc"]
+    },
+    "trainers": [
+      {
+        "name": "Ace Trainer Carnation [Cynthia]",
+        "pokemons": [
+          {"name": "Spiritomb", "level": 86, "moves": []},
+          {"name": "Roserade", "level": 86, "moves": []},
+          {"name": "Togekiss", "level": 86, "moves": []},
+          {"name": "Lucario", "level": 86, "moves": []},
+          {"name": "Milotic", "level": 86, "moves": []},
+          {"name": "Garchomp", "level": 88, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Carnation [Roxanne]",
+        "pokemons": [
+          {"name": "Probopass", "level": 79, "moves": []},
+          {"name": "Omastar", "level": 77, "moves": []},
+          {"name": "Tyrantrum", "level": 77, "moves": []},
+          {"name": "Armaldo", "level": 77, "moves": []},
+          {"name": "Cradily", "level": 77, "moves": []},
+          {"name": "Aerodactyl", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Carnation [Roxanne]",
+        "pokemons": [
+          {"name": "Probopass", "level": 79, "moves": []},
+          {"name": "Omastar", "level": 77, "moves": []},
+          {"name": "Tyrantrum", "level": 77, "moves": []},
+          {"name": "Armaldo", "level": 77, "moves": []},
+          {"name": "Cradily", "level": 77, "moves": []},
+          {"name": "Aerodactyl", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Carnation [Flannery]",
+        "pokemons": [
+          {"name": "Ninetales", "level": 77, "moves": []},
+          {"name": "Houndoom", "level": 77, "moves": []},
+          {"name": "Delphox", "level": 77, "moves": []},
+          {"name": "Magmortar", "level": 77, "moves": []},
+          {"name": "Torkoal", "level": 79, "moves": []},
+          {"name": "Camerupt", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Carnation [Flannery]",
+        "pokemons": [
+          {"name": "Ninetales", "level": 77, "moves": []},
+          {"name": "Houndoom", "level": 77, "moves": []},
+          {"name": "Delphox", "level": 77, "moves": []},
+          {"name": "Magmortar", "level": 77, "moves": []},
+          {"name": "Torkoal", "level": 79, "moves": []},
+          {"name": "Camerupt", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Carnation [Winona]",
+        "pokemons": [
+          {"name": "Skarmory", "level": 77, "moves": []},
+          {"name": "Honchkrow", "level": 77, "moves": []},
+          {"name": "Sigilyph", "level": 77, "moves": []},
+          {"name": "Dragonite", "level": 77, "moves": []},
+          {"name": "Talonflame", "level": 77, "moves": []},
+          {"name": "Altaria", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Carnation [Winona]",
+        "pokemons": [
+          {"name": "Skarmory", "level": 77, "moves": []},
+          {"name": "Honchkrow", "level": 77, "moves": []},
+          {"name": "Sigilyph", "level": 77, "moves": []},
+          {"name": "Dragonite", "level": 77, "moves": []},
+          {"name": "Talonflame", "level": 77, "moves": []},
+          {"name": "Altaria", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Dragon Tamer Antonin [Lance]",
+        "pokemons": [
+          {"name": "Salamence", "level": 86, "moves": []},
+          {"name": "Gyarados", "level": 86, "moves": []},
+          {"name": "Garchomp", "level": 86, "moves": []},
+          {"name": "Altaria", "level": 86, "moves": []},
+          {"name": "Charizard", "level": 86, "moves": []},
+          {"name": "Dragonite", "level": 88, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Antonin [Brawly]",
+        "pokemons": [
+          {"name": "Machamp", "level": 77, "moves": []},
+          {"name": "Heracross", "level": 77, "moves": []},
+          {"name": "Scrafty", "level": 77, "moves": []},
+          {"name": "Conkeldurr", "level": 77, "moves": []},
+          {"name": "Hariyama", "level": 79, "moves": []},
+          {"name": "Medicham", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Antonin [Brawly]",
+        "pokemons": [
+          {"name": "Machamp", "level": 77, "moves": []},
+          {"name": "Heracross", "level": 77, "moves": []},
+          {"name": "Scrafty", "level": 77, "moves": []},
+          {"name": "Conkeldurr", "level": 77, "moves": []},
+          {"name": "Hariyama", "level": 79, "moves": []},
+          {"name": "Medicham", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Antonin [Wattson]",
+        "pokemons": [
+          {"name": "Heliolisk", "level": 77, "moves": []},
+          {"name": "Ampharos", "level": 77, "moves": []},
+          {"name": "Rotom", "level": 77, "moves": []},
+          {"name": "Magnezone", "level": 77, "moves": []},
+          {"name": "Raichu", "level": 77, "moves": []},
+          {"name": "Manectric", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Antonin [Wattson]",
+        "pokemons": [
+          {"name": "Heliolisk", "level": 77, "moves": []},
+          {"name": "Ampharos", "level": 77, "moves": []},
+          {"name": "Rotom", "level": 77, "moves": []},
+          {"name": "Magnezone", "level": 77, "moves": []},
+          {"name": "Raichu", "level": 77, "moves": []},
+          {"name": "Manectric", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Antonin [Norman]",
+        "pokemons": [
+          {"name": "Bouffalant", "level": 77, "moves": []},
+          {"name": "Exploud", "level": 77, "moves": []},
+          {"name": "Sawsbuck", "level": 77, "moves": []},
+          {"name": "Zangoose", "level": 77, "moves": []},
+          {"name": "Slaking", "level": 79, "moves": []},
+          {"name": "Kangaskhan", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Antonin [Norman]",
+        "pokemons": [
+          {"name": "Bouffalant", "level": 77, "moves": []},
+          {"name": "Exploud", "level": 77, "moves": []},
+          {"name": "Sawsbuck", "level": 77, "moves": []},
+          {"name": "Zangoose", "level": 77, "moves": []},
+          {"name": "Slaking", "level": 79, "moves": []},
+          {"name": "Kangaskhan", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Champion Josephine [Diantha]",
+        "pokemons": [
+          {"name": "Aerodactyl", "level": 86, "moves": []},
+          {"name": "Roserade", "level": 86, "moves": []},
+          {"name": "Azumarill", "level": 86, "moves": []},
+          {"name": "Delphox", "level": 86, "moves": []},
+          {"name": "Goodra", "level": 86, "moves": []},
+          {"name": "Gardevoir", "level": 88, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Josephine [Liza]",
+        "pokemons": [
+          {"name": "Slowking", "level": 77, "moves": []},
+          {"name": "Gothitelle", "level": 77, "moves": []},
+          {"name": "Claydol", "level": 77, "moves": []},
+          {"name": "Grumpig", "level": 77, "moves": []},
+          {"name": "Lunatone", "level": 79, "moves": []},
+          {"name": "Gardevoir", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Josephine [Liza]",
+        "pokemons": [
+          {"name": "Slowking", "level": 77, "moves": []},
+          {"name": "Gothitelle", "level": 77, "moves": []},
+          {"name": "Claydol", "level": 77, "moves": []},
+          {"name": "Grumpig", "level": 77, "moves": []},
+          {"name": "Lunatone", "level": 79, "moves": []},
+          {"name": "Gardevoir", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Josephine [Tate]",
+        "pokemons": [
+          {"name": "Bronzong", "level": 77, "moves": []},
+          {"name": "Reuniclus", "level": 77, "moves": []},
+          {"name": "Xatu", "level": 77, "moves": []},
+          {"name": "Hypno", "level": 77, "moves": []},
+          {"name": "Solrock", "level": 79, "moves": []},
+          {"name": "Gallade", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Josephine [Tate]",
+        "pokemons": [
+          {"name": "Bronzong", "level": 77, "moves": []},
+          {"name": "Reuniclus", "level": 77, "moves": []},
+          {"name": "Xatu", "level": 77, "moves": []},
+          {"name": "Hypno", "level": 77, "moves": []},
+          {"name": "Solrock", "level": 79, "moves": []},
+          {"name": "Gallade", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Josephine [Wallace]",
+        "pokemons": [
+          {"name": "Politoed", "level": 77, "moves": []},
+          {"name": "Ludicolo", "level": 77, "moves": []},
+          {"name": "Kingdra", "level": 77, "moves": []},
+          {"name": "Milotic", "level": 79, "moves": []},
+          {"name": "Gyarados", "level": 77, "moves": []},
+          {"name": "Swampert", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Josephine [Wallace]",
+        "pokemons": [
+          {"name": "Politoed", "level": 77, "moves": []},
+          {"name": "Ludicolo", "level": 77, "moves": []},
+          {"name": "Kingdra", "level": 77, "moves": []},
+          {"name": "Milotic", "level": 79, "moves": []},
+          {"name": "Gyarados", "level": 77, "moves": []},
+          {"name": "Swampert", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Ace Trainer Kelvin [Blue]",
+        "pokemons": [
+          {"name": "Heracross", "level": 86, "moves": []},
+          {"name": "Alakazam", "level": 86, "moves": []},
+          {"name": "Arcanine", "level": 86, "moves": []},
+          {"name": "Gyarados", "level": 86, "moves": []},
+          {"name": "Exeggutor", "level": 86, "moves": []},
+          {"name": "Tyranitar", "level": 88, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Kelvin [Grant]",
+        "pokemons": [
+          {"name": "Crustle", "level": 77, "moves": []},
+          {"name": "Relicanth", "level": 77, "moves": []},
+          {"name": "Carbink", "level": 77, "moves": []},
+          {"name": "Tyrantrum", "level": 77, "moves": []},
+          {"name": "Aurorus", "level": 77, "moves": []},
+          {"name": "Aerodactyl", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Kelvin [Ramos]",
+        "pokemons": [
+          {"name": "Jumpluff", "level": 77, "moves": []},
+          {"name": "Victreebel", "level": 77, "moves": []},
+          {"name": "Exeggutor", "level": 77, "moves": []},
+          {"name": "Roserade", "level": 77, "moves": []},
+          {"name": "Gogoat", "level": 79, "moves": []},
+          {"name": "Venusaur", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Kelvin [Clemont]",
+        "pokemons": [
+          {"name": "Emolga", "level": 77, "moves": []},
+          {"name": "Magnezone", "level": 77, "moves": []},
+          {"name": "Electivire", "level": 77, "moves": []},
+          {"name": "Galvantula", "level": 77, "moves": []},
+          {"name": "Heliolisk", "level": 79, "moves": []},
+          {"name": "Ampharos", "level": 79, "moves": []}
+        ]
+      },
+	  {
+        "name": "Leader Kelvin [Wulfric]",
+        "pokemons": [
+          {"name": "Glalie", "level": 77, "moves": []},
+          {"name": "Mamoswine", "level": 77, "moves": []},
+          {"name": "Beartic", "level": 77, "moves": []},
+          {"name": "Cryogonal", "level": 77, "moves": []},
+          {"name": "Avalugg", "level": 79, "moves": []},
+          {"name": "Abomasnow", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Kelvin [Wikstrom]",
+        "pokemons": [
+          {"name": "Klefki", "level": 82, "moves": []},
+          {"name": "Probopass", "level": 82, "moves": []},
+          {"name": "Metagross", "level": 82, "moves": []},
+          {"name": "Aegislash", "level": 84, "moves": []},
+          {"name": "Empoleon", "level": 82, "moves": []},
+          {"name": "Scizor", "level": 84, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Kelvin [Siebold]",
+        "pokemons": [
+          {"name": "Clawitzer", "level": 82, "moves": []},
+          {"name": "Starmie", "level": 82, "moves": []},
+          {"name": "Gyarados", "level": 82, "moves": []},
+          {"name": "Milotic", "level": 82, "moves": []},
+          {"name": "Barbaracle", "level": 84, "moves": []},
+          {"name": "Blastoise", "level": 84, "moves": []}
+        ]
+      },
+      {
+        "name": "Furisode Girl Felix [Iris]",
+        "pokemons": [
+          {"name": "Hydreigon", "level": 86, "moves": []},
+          {"name": "Druddigon", "level": 86, "moves": []},
+          {"name": "Archeops", "level": 86, "moves": []},
+          {"name": "Aggron", "level": 88, "moves": []},
+          {"name": "Lapras", "level": 86, "moves": []},
+          {"name": "Haxorus", "level": 88, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Felix [Viola]",
+        "pokemons": [
+          {"name": "Masquerain", "level": 77, "moves": []},
+          {"name": "Yanmega", "level": 77, "moves": []},
+          {"name": "Vespiquen", "level": 77, "moves": []},
+          {"name": "Crustle", "level": 77, "moves": []},
+          {"name": "Vivillon", "level": 79, "moves": []},
+          {"name": "Pinsir", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Felix [Korrina]",
+        "pokemons": [
+          {"name": "Machamp", "level": 77, "moves": []},
+          {"name": "Mienshao", "level": 77, "moves": []},
+          {"name": "Chesnaught", "level": 77, "moves": []},
+          {"name": "Pangoro", "level": 77, "moves": []},
+          {"name": "Hawlucha", "level": 79, "moves": []},
+          {"name": "Lucario", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Felix [Valerie]",
+        "pokemons": [
+          {"name": "Mr. Mime", "level": 77, "moves": []},
+          {"name": "Florges", "level": 77, "moves": []},
+          {"name": "Aromatisse", "level": 77, "moves": []},
+          {"name": "Slurpuff", "level": 77, "moves": []},
+          {"name": "Sylveon", "level": 79, "moves": []},
+          {"name": "Mawile", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Felix [Olympia]",
+        "pokemons": [
+          {"name": "Sigilyph", "level": 77, "moves": []},
+          {"name": "Slowking", "level": 77, "moves": []},
+          {"name": "Gothitelle", "level": 77, "moves": []},
+          {"name": "Espeon", "level": 77, "moves": []},
+          {"name": "Meowstic", "level": 79, "moves": []},
+          {"name": "Alakazam", "level": 79, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Felix [Malva]",
+        "pokemons": [
+          {"name": "Pyroar", "level": 82, "moves": []},
+          {"name": "Chandelure", "level": 82, "moves": []},
+          {"name": "Magmortar", "level": 82, "moves": []},
+          {"name": "Torkoal", "level": 82, "moves": []},
+          {"name": "Talonflame", "level": 84, "moves": []},
+          {"name": "Houndoom", "level": 84, "moves": []}
+        ]
+      },
+      {
+        "name": "Leader Felix [Drasna]",
+        "pokemons": [
+          {"name": "Dragalge", "level": 82, "moves": []},
+          {"name": "Druddigon", "level": 82, "moves": []},
+          {"name": "Altaria", "level": 82, "moves": []},
+          {"name": "Haxorus", "level": 82, "moves": []},
+          {"name": "Noivern", "level": 84, "moves": []},
+          {"name": "Garchomp", "level": 84, "moves": []}
+        ]
+      },
+      {
+        "name": "PKMN Trainer Wally",
+        "pokemons": [
+          {"name": "Talonflame", "level": 81, "moves": []},
+          {"name": "Azumarill", "level": 81, "moves": []},
+          {"name": "Roserade", "level": 81, "moves": []},
+          {"name": "Magnezone", "level": 81, "moves": []},
+          {"name": "Garchomp", "level": 81, "moves": []},
+          {"name": "Gallade", "level": 83, "moves": []}
+        ]
+      },
+      {
+        "name": "PKMN Trainer Wally",
+        "pokemons": [
+          {"name": "Azumarill", "level": 97, "moves": []},
+          {"name": "Talonflame", "level": 97, "moves": []},
+          {"name": "Roserade", "level": 97, "moves": []},
+          {"name": "Magnezone", "level": 97, "moves": []},
+          {"name": "Garchomp", "level": 97, "moves": []},
+          {"name": "Gallade", "level": 99, "moves": []}
+        ]
+      }
+    ]
+  },
+"Pokemon League - Postgame": {
+    "trainers": [
+      {
+        "name": "Elite Four Sidney",
+        "pokemons": [
+          {"name": "Scrafty", "level": 80, "moves": []},
+          {"name": "Bisharp", "level": 80, "moves": []},
+          {"name": "Greninja", "level": 80, "moves": []},
+          {"name": "Absol", "level": 82, "moves": []},
+          {"name": "Tyranitar", "level": 82, "moves": []}
+        ]
+      },
+      {
+        "name": "Elite Four Phoebe",
+        "pokemons": [
+          {"name": "Aegislash", "level": 81, "moves": []},
+          {"name": "Chandelure", "level": 81, "moves": []},
+          {"name": "Dusknoir", "level": 81, "moves": []},
+          {"name": "Sableye", "level": 83, "moves": []},
+          {"name": "Gengar", "level": 83, "moves": []}
+        ]
+      },
+      {
+        "name": "Elite Four Glacia",
+        "pokemons": [
+          {"name": "Walrein", "level": 82, "moves": []},
+          {"name": "Froslass", "level": 82, "moves": []},
+          {"name": "Mamoswine", "level": 82, "moves": []},
+          {"name": "Glalie", "level": 84, "moves": []},
+          {"name": "Abomasnow", "level": 84, "moves": []}
+        ]
+      },
+      {
+        "name": "Elite Four Drake",
+        "pokemons": [
+          {"name": "Hydreigon", "level": 83, "moves": []},
+          {"name": "Garchomp", "level": 83, "moves": []},
+          {"name": "Kingdra", "level": 83, "moves": []},
+          {"name": "Salamence", "level": 85, "moves": []},
+          {"name": "Latios", "level": 85, "moves": []}
+        ]
+      },
+      {
+        "name": "Champion Steven",
+        "pokemons": [
+          {"name": "Aerodactyl", "level": 87, "moves": []},
+          {"name": "Aggron", "level": 87, "moves": []},
+          {"name": "Heatran", "level": 87, "moves": []},
+          {"name": "Claydol", "level": 87, "moves": []},
+          {"name": "Metagross", "level": 89, "moves": []}
+        ]
+      }
+    ]
+  },
+"Mirage Forest": {
+    "wild": {
+      "grass": ["Raikou", "Entei", "Suicune", "Celebi", "Shaymin", "Cobalion", "Terrakion", "Virizion", "Keldeo", "Meloetta", "Xerneas"],
+      "rock_smash": ["Ditto"]
+    }
+  },
+"Mirage Cave": {
+    "wild": {
+      "walking": ["Mewtwo", "Kyogre", "Groudon", "Jirachi", "Uxie", "Mesprit", "Azelf", "Genesect", "Zygarde", "Diancie", "Volcanion"],
+      "rock_smash": ["Ditto"]
+    }
+  },
+"Mirage Mountain": {
+    "wild": {
+      "grass": ["Articuno", "Zapdos", "Moltres", "Lugia", "Ho-oh", "Dialga", "Palkia", "Arceus", "Reshiram", "Zekrom", "Yveltal"],
+      "rock_smash": ["Ditto"]
+    }
+  },
+"Mirage Island": {
+    "wild": {
+      "grass": ["Mew", "Latias", "Latios", "Manaphy", "Cresselia", "Darkrai", "Victini", "Tornadus", "Thundurus", "Landorus", "Hoopa"],
+      "rock_smash": ["Ditto"]
+    }
+  }
+}}
